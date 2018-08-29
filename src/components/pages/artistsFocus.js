@@ -14,14 +14,39 @@ class ArtistsFocus extends Component {
         this.state = { 
             artist: { 
                 name: '',
-                image2: '',
-                featuredTracks: []
+                featuredTracks: [], 
+                media: []
             },
-            open: false 
+            // open: false 
+            activeModal: null 
         };
+
+        // this.clickHandler = this.clickHandler.bind(this);
+        // this.hideModal = this.hideModal.bind(this);
 
     }
     
+
+    clickHandler = (e, index) => {
+        this.setState({ activeModal: index });
+    }
+
+    hideModal = () => {
+        this.setState({ activeModal: null });
+    }
+
+    
+    // onOpenModal = () => {
+    //     this.setState({ open: true });
+    //     return false; // prevent href from triggering
+    // };
+     
+    // onCloseModal = () => {
+    //     this.setState({ open: false });
+    // };
+
+
+
     componentDidMount() {
 
         const { match: { params } } = this.props;
@@ -43,158 +68,124 @@ class ArtistsFocus extends Component {
     }
 
     
-    onOpenModal = () => {
-        this.setState({ open: true });
-        return false; // prevent href from triggering
-    };
-     
-    onCloseModal = () => {
-        this.setState({ open: false });
-    };
-
 
     render() {
 
         const { artist } = this.state;
-        const { open } = this.state;
+        // const { open } = this.state;
 
 
         // console.log("Hello " + artist.featuredTracks);
 
-        return (
-            <div>
+        if (!artist) {
 
-            <section id="artistFocusTop">
-                <div className="section-content">
-                    <div className="container">
+            return <div>Sorry, there's a void.  No artist exists.</div>
 
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div key={artist.id} className="img-box">
-                                    <img className="img-fluid" src={ `/img/artists/${artist.image}` } alt={`${artist.name}`}  />
+        } else { 
+
+
+            return (
+                <div>
+
+                <section id="artistFocusTop">
+                    <div className="section-content">
+                        <div className="container">
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <div key={artist.id} className="img-box">
+                                        <img className="img-fluid" src={ `/img/artists/${artist.image}` } alt={`${artist.name}`}  />
+                                    </div>
+
+                                    <div className="selectedReleases">
+                                        Selected Releases
+
+                                    </div>
+
                                 </div>
+                                <div className="col-md-6">
 
-                                <div className="selectedReleases">
-                                    Selected Releases
+                                    <div className="aboutArtist">
+                                        <p className="title">{artist.name}</p>
+                                        <p>{artist.textFull}</p>
+                                    </div>
+
+                                    <div className="featuredTracks">
+                                        Featured Tracks
+
+                                        <ul>
+                                            {/* Get featured tracks */}
+                                            
+                                            {artist.featuredTracks.map( track => (
+
+                                                <li key={track.track}>
+                                                    <iframe title={`${track.title}`} src={`${track.url}`} seamless>
+                                                        <a href={`${track.albumLink}`}>{track.albumTitle}</a>
+                                                    </iframe>                      
+                                                </li>
+
+                                            ))}
+
+                                        </ul>
+
+
+                                    </div>
 
                                 </div>
-
                             </div>
-                            <div className="col-md-6">
 
-                                <div className="aboutArtist">
-                                    <p className="title">{artist.name}</p>
-                                    <p>{artist.textFull}</p>
-                                </div>
-
-                                <div className="featuredTracks">
-                                    Featured Tracks
-
-                                    <ul>
-                                        {/* Get featured tracks */}
-                                        
-                                        {artist.featuredTracks.map( track => (
-
-                                            <li key={track.track}>
-                                                <iframe title={`${track.title}`} src={`${track.url}`} seamless>
-                                                    <a href={`${track.albumLink}`}>{track.albumTitle}</a>
-                                                </iframe>                      
-                                            </li>
-
-                                        ))}
-                                    </ul>
-
-
-                                </div>
-
-                            </div>
                         </div>
-
                     </div>
-                </div>
-            </section>             
+                </section>             
 
-            <section id="artistFocusBottom">
-                <div className="section-content">
-                    <div className="container">
+                <section id="artistFocusBottom">
+                    <div className="section-content">
+                        <div className="container">
 
-                        <div className="row">
-                            <div className="col-sm-12">
+                            <div className="row">
+                                <div className="col-sm-12">
 
-                                <div className="title">
-                                    Media
+                                    <div className="title">
+                                        Media
+                                    </div>
+
                                 </div>
 
                             </div>
 
+                            <div className="row">
+
+
+                                {/* Get artist media */}
+                                
+                                {artist.media.map( (m, index) => (
+
+                                    <div key={m.video} className="col-md-4">
+                                        <a href="#" onClick={e => this.clickHandler(e, index)}>
+                                            <img className="media img-fluid" src={ `/img/artists/${m.image}` } alt={`${m.title}`}  />
+                                        </a>
+                                        <Modal open={this.state.activeModal === index} onClose={this.hideModal} center>
+                                            <h4>{m.title}</h4>
+                                            <iframe title={`${m.title}`} width="560" height="315" src={`${m.url}`} 
+                                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        </Modal>
+                                    </div>
+
+                                ))}
+
+
+
+
+                            </div>
+
                         </div>
-
-                        <div className="row">
-
-                            <div className="col-md-4">
-                                <a href="#" onClick={this.onOpenModal}>
-                                    <img className="media img-fluid" src="/img/artists/Rusuden_Media_01.jpg" alt={`${artist.name}`}  />
-                                </a>
-                                {/* <button onClick={this.onOpenModal}>Open modal</button> */}
-                                    <Modal open={open} onClose={this.onCloseModal} center>
-                                        <h2>Simple centered modal</h2>
-                                        <iframe title="YT" width="560" height="315" src="https://www.youtube.com/embed/WByzzzsCQjw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                    </Modal>
-                            </div>
-                            <div className="col-md-4">
-
-                                <a href="#" onClick={this.onOpenModal}>
-                                    <img className="media img-fluid" src="/img/artists/Rusuden_Media_02.jpg" alt={`${artist.name}`}  />
-                                </a>
-                                <Modal open={open} onClose={this.onCloseModal} center>
-                                        <h2>This is a second one</h2>
-                                        <iframe title="YT" width="560" height="315" src="https://www.youtube.com/embed/WByzzzsCQjw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                    </Modal>
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_03.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_04.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_05.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_06.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_07.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_08.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                            <div className="col-md-4">
-
-                                <img className="media img-fluid" src="/img/artists/Rusuden_Media_09.jpg" alt={`${artist.name}`}  />
-
-                            </div>
-                        </div>
-
                     </div>
+                </section> 
+
+
                 </div>
-            </section> 
-
-
-            </div>
-        );
+            );
+        }
     }
 }
 

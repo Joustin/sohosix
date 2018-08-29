@@ -43,6 +43,10 @@ body.white {
 	@include transition(1s ease-in-out);
 }
 
+#content {
+	padding-top: 4rem;
+}
+
 .section-content {
     padding: 5rem 0;
 }
@@ -64,6 +68,10 @@ body.white {
 	img.logo-main {
 		height: 36px;
 		/* @include translateY(-50%); */
+	}
+
+	button.navbar-toggler {
+		align-self: center;
 	}
 }
 

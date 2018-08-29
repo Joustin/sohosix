@@ -22,7 +22,21 @@
                     "albumLink": "http://music.rusuden.com/album/summer-seventeen",
                     "albumTitle": "Summer Seventeen by Rusuden"
                 }     
-            ]
+            ],
+            "media": [
+                {
+                    "video": 1, 
+                    "title": "Video 1",
+                    "image": "Rusuden_Media_01.jpg",
+                    "url": "https://www.youtube.com/embed/WByzzzsCQjw?rel=0"
+                },
+                {
+                    "video": 2, 
+                    "title": "Video 2",
+                    "image": "Rusuden_Media_02.jpg",
+                    "url": "https://www.youtube.com/embed/deDin2bZaJg"
+                }   
+            ] 
         },
         {
             "id": 2,
@@ -46,7 +60,21 @@
                     "albumLink": "http://music.rusuden.com/album/summer-seventeen",
                     "albumTitle": "Summer Seventeen by Rusuden"
                 }     
-            ]
+            ],
+            "media": [
+                {
+                    "video": 1, 
+                    "title": "Video 1",
+                    "image": "Rusuden_Media_01.jpg",
+                    "url": "https://www.youtube.com/embed/WByzzzsCQjw?rel=0"
+                },
+                {
+                    "video": 2, 
+                    "title": "Video 2",
+                    "image": "Rusuden_Media_02.jpg",
+                    "url": "https://www.youtube.com/embed/deDin2bZaJg"
+                }    
+            ] 
         },
         {
             "id": 3,
@@ -70,7 +98,64 @@
                     "albumLink": "http://music.rusuden.com/album/summer-seventeen",
                     "albumTitle": "Summer Seventeen by Rusuden"
                 }     
-            ]
+            ],
+            "media": [
+                {
+                    "video": 1, 
+                    "title": "Rusuden A/B Promo",
+                    "image": "Rusuden_Media_01.jpg",
+                    "url": "https://www.youtube.com/embed/WByzzzsCQjw?rel=0"
+                },
+                {
+                    "video": 2, 
+                    "title": "Live track: Machinedrum UW+, etc",
+                    "image": "Rusuden_Media_02.jpg",
+                    "url": "https://www.youtube.com/embed/deDin2bZaJg"
+                },
+                {
+                    "video": 3, 
+                    "title": "Live track: SH-101, MiniBrute, etc",
+                    "image": "Rusuden_Media_03.jpg",
+                    "url": "https://www.youtube.com/embed/4xqaRYFePM4"
+                },
+                {
+                    "video": 4, 
+                    "title": "Unreleased 'Beekeeper' track",
+                    "image": "Rusuden_Media_04.jpg",
+                    "url": "https://www.youtube.com/embed/o11mW2N-0h4"
+                },
+                {
+                    "video": 5, 
+                    "title": "Remix of Grimes song 'Orphia'",
+                    "image": "Rusuden_Media_05.jpg",
+                    "url": "https://www.youtube.com/embed/zQz-zKTpSzs"
+                },
+                {
+                    "video": 6, 
+                    "title": "Reversed Snow (Monomachine)",
+                    "image": "Rusuden_Media_06.jpg",
+                    "url": "https://www.youtube.com/embed/WnDsWKuwDPI"
+                },
+                {
+                    "video": 7, 
+                    "title": "Roland SH-7 showcase",
+                    "image": "Rusuden_Media_07.jpg",
+                    "url": "https://www.youtube.com/embed/Pvs0_jeBJBk"
+                },
+                {
+                    "video": 8, 
+                    "title": "Perfourmer + TB-303",
+                    "image": "Rusuden_Media_08.jpg",
+                    "url": "https://www.youtube.com/embed/N5GUN2wEgzw"
+                },
+                {
+                    "video": 9, 
+                    "title": "Roland SH-5 Arpeggio",
+                    "image": "Rusuden_Media_09.jpg",
+                    "url": "https://www.youtube.com/embed/GHUWXH_2wnQ"
+                } 
+
+            ]            
         }
     ]
 }

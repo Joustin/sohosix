@@ -14,6 +14,9 @@ body.white {
   -moz-transition: 1s ease-in-out;
   transition: 1s ease-in-out; }
 
+#content {
+  padding-top: 4rem; }
+
 .section-content {
   padding: 5rem 0; }
 
@@ -30,6 +33,8 @@ body.white {
   .navbar img.logo-main {
     height: 36px;
     /* @include translateY(-50%); */ }
+  .navbar button.navbar-toggler {
+    align-self: center; }
 
 a.nav-link {
   text-transform: uppercase;
