@@ -1,0 +1,347 @@
+/*****  VARS  ****/
+
+$darkGrey: #545454;
+$medGrey: #838383;
+$lightGrey: #D1D1D1;
+$toxicGreen: #99ff0e;
+
+$mako: 'Mako', sans-serif;
+
+
+/****  MIXINS  ****/
+
+@mixin translateY($e) {
+	-webkit-transform: translateY($e);
+	   -moz-transform: translateY($e);
+	        transform: translateY($e);
+}
+
+@mixin transition($e) {
+	-webkit-transition: $e;
+	   -moz-transition: $e;
+	        transition: $e; 
+}
+
+
+/****  EXTENDS  ****/
+
+%artist-card {
+	padding: 10px;
+	color: black;
+}
+
+/****  MAIN  ****/
+
+
+body {
+	background-color: $lightGrey;
+	@include transition(1s ease-in-out);
+}
+
+body.white {
+	background-color: #fff;
+	@include transition(1s ease-in-out);
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+
+/****  NAVBAR  ****/
+
+.nav-padding {
+	/*min-height: 75rem;*/
+	padding-top: 3.5rem;
+}
+
+.navbar {
+	background-color: $medGrey;
+	height: 78px;
+	border-bottom: 2px solid $darkGrey;
+	padding: 0rem 2rem;
+
+	img.logo-main {
+		height: 36px;
+		/* @include translateY(-50%); */
+	}
+}
+
+
+a.nav-link {
+	text-transform: uppercase;
+	font-family: $mako;
+	font-size: 1.2rem;
+	padding-top: 1.5rem;
+	height: 76px;
+	@include transition(.4s ease-in-out);
+
+	&:hover {
+		@include transition(.4s ease-in-out);
+	}
+}
+
+ul.navbar-nav a.active {
+	border-bottom: 6px solid $toxicGreen;
+}
+
+.nav-sublinks {
+	width: 180px;
+
+	ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;	
+
+		li {
+			margin-right: 1.5rem;
+		}
+
+	}
+
+	div {
+		background-color: #fff;
+		width: 20px;
+		height: 20px;
+	}
+
+}
+
+
+@media screen and (max-width: 767.98px) {
+	.nav-sublinks div {
+		display: none;
+	}
+}
+
+/****  HOME  *****/
+
+#shout-out {
+	background-color: #d1d1d1;
+
+	.featured-card p.card-text {
+		font-size: 1.3rem;
+	}
+
+	p.card-title {
+		font-size: 1.1rem;
+		font-weight: 600;
+		text-align: center;
+	}	
+
+}
+
+
+#studio-talk {
+    background: url("/img/home-bg_studio.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.studio-text {
+    background-color: #fff;
+    padding: 1.875rem;
+	min-height: 300px;
+	
+	h3 {
+		font-family: $mako;
+		font-size: 3rem;
+	}
+
+}
+
+/*****  ARTISTS  ******/
+
+
+#artists {
+
+	.row {
+		padding-bottom: 3rem;
+	}
+
+	.whiteBox {
+		background-color: #fff;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+
+
+	.row:nth-child(even) .whiteBox {
+		justify-content: space-between;
+	}
+
+	// .whiteBox.alt-justify {
+	// 	justify-content: space-between;
+	// }
+
+	.row:nth-child(even) .whiteBox div:first-child {
+		order: 1;
+	}
+
+	// .alt-justify div:first-child {
+	// 	order: 1;
+	// }
+
+	.img-box {
+		width: 540px;
+	}
+
+	.aboutArtist {
+		padding: 20px;
+		width: 470px;
+
+		p.title {
+			font-family: $mako;
+			font-size: 3rem;
+			margin-bottom: .3rem;
+		}
+
+	}
+
+	@media screen and (max-width: 991px) {
+
+		.aboutArtist {
+			p.title {
+				font-size: 2rem;
+				margin-bottom: .3rem;
+			}
+		}
+
+	}
+
+	@media screen and (max-width: 770px) {
+		.whiteBox {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.img-box {
+			width: 100%;
+		}
+		
+		.aboutArtist {
+			width:100%;
+		}
+
+		.row:nth-child(even) .whiteBox div:first-child {
+			order: 0;
+		}
+
+	}
+
+}
+
+
+#artistFocusTop {
+
+	// .row {
+	// 	padding-bottom: 3rem;
+	// }
+
+	// .img-box {
+	// 	width: 540px;
+	// }
+
+	.aboutArtist {
+
+		p.title {
+			font-family: $mako;
+			font-size: 3rem;
+		}
+
+	}	
+
+	.featuredTracks {
+
+		ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;	
+
+			li {
+				margin: 0px;
+				padding: 0px;
+			}
+
+		}
+
+
+
+		iframe {
+			border: 0;
+			width: 100%;
+			height: 42px;	
+		}
+
+	}
+
+}
+
+#artistFocusBottom {
+	
+	div.title {
+		font-weight: bold;
+	}
+
+	img.media {
+		padding-bottom: 40px; 
+	}
+}
+
+
+/*****  EXTRAS  ******/
+
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+
+/****** OVERRIDES *****/
+
+
+.navbar-collapse {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.card  {
+	border-radius: 0;
+}
+
+.card-img-top {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+
+/******** animations ********/
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.animated.fadeIn {
+    /*-ms-animation-name: fadeIn;*/
+    animation-name: fadeIn;
+    
+}

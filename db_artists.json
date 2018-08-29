@@ -1,0 +1,76 @@
+{
+    "Artists": [
+        {
+            "id": 1,
+            "name": "ACEAN",
+            "text": "Anthony Green & Justin Morgan work together as Acean to create their version of Detroit Techno influenced by the various studio locations from the past few years.",
+            "textFull": "sasasas... Full Text for ACEAN",
+            "style": "Detroit Techno, House",
+            "image": "artists_ACEAN_01.jpg",
+            "featuredTracks": [
+                {
+                    "track": 1, 
+                    "title": "A Guide To Drawing",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=2446920885/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/volume-3",
+                    "albumTitle": "Volume 3 by Rusuden"
+                },
+                {
+                    "track": 2, 
+                    "title": "Summer Seventeen",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=290471142/size=small/bgcol=ffffff/linkcol=333333/track=3736423520/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/summer-seventeen",
+                    "albumTitle": "Summer Seventeen by Rusuden"
+                }     
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Mediocrates",
+            "text": "Anthony Green & Justin Morgan work together as Acean to create their version of Detroit Techno influenced by the various studio locations from the past few years.",
+            "textFull": "sasasas",
+            "style": "Techno, Acid, House",
+            "image": "artists_Mediocrates_02.jpg",
+            "featuredTracks": [
+                {
+                    "track": 1, 
+                    "title": "A Guide To Drawing",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=2446920885/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/volume-3",
+                    "albumTitle": "Volume 3 by Rusuden"
+                },
+                {
+                    "track": 2, 
+                    "title": "Summer Seventeen",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=290471142/size=small/bgcol=ffffff/linkcol=333333/track=3736423520/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/summer-seventeen",
+                    "albumTitle": "Summer Seventeen by Rusuden"
+                }     
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Rusuden",
+            "text": "Short info text about Rusuden.  yay",
+            "textFull": "Here's some info text. With A LOT more stuff to read yay",
+            "style": "Acid, Techno, IDM/Braindance",
+            "image": "artists_Rusuden_01a.jpg",
+            "featuredTracks": [
+                {
+                    "track": 1, 
+                    "title": "A Guide To Drawing",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=2446920885/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/volume-3",
+                    "albumTitle": "Volume 3 by Rusuden"
+                },
+                {
+                    "track": 2, 
+                    "title": "Summer Seventeen",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=290471142/size=small/bgcol=ffffff/linkcol=333333/track=3736423520/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/summer-seventeen",
+                    "albumTitle": "Summer Seventeen by Rusuden"
+                }     
+            ]
+        }
+    ]
+}

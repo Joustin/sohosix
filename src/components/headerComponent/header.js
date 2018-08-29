@@ -1,0 +1,49 @@
+import React, { Component } from 'react';
+import {
+  NavLink
+} from 'react-router-dom';
+
+
+class Header extends Component {
+  render() {
+    return (
+
+        <header>
+
+
+          <nav className="navbar navbar-expand-md navbar-dark justify-content-between align-items-stretch">
+
+            <a className="navbar-brand order-sm-0 align-self-center mx-2" href="/">
+              <img className="logo-main animated fadeIn" src={ '/img/logo_main.svg' } alt="sohosix.logo" />
+            </a>
+
+            <button className="navbar-toggler order-sm-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+
+            <div className="collapse navbar-collapse align-items-stretch" id="navbarCollapse">
+              <ul className="navbar-nav ml-auto">
+
+                <li className="nav-item">
+                  <NavLink exact to='/' className="nav-link">Home<span className="sr-only">(current)</span></NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to='/Artists' className="nav-link">Artists</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to='/Releases' className="nav-link">Releases</NavLink>
+                </li>
+
+              </ul>
+            </div>
+
+
+          </nav>
+
+        </header>
+
+    );
+  }
+}
+
+export default Header;
