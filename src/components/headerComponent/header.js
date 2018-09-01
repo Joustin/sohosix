@@ -10,27 +10,27 @@ class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        navCollapsed: true
+        // navCollapsed: true
     };
 
   }
 
-  _onToggleNav = () => {
-    this.setState({ navCollapsed: !this.state.navCollapsed });
-  }
+  // _onToggleNav = () => {
+  //   this.setState({ navCollapsed: !this.state.navCollapsed });
+  // }
 
 
 
   render() {
 
-    const { navCollapsed } = this.state;
+    // const { navCollapsed } = this.state;
 
     return (
 
         <header>
 
 
-          <nav className="navbar navbar-expand-md fixed-top navbar-dark justify-content-between align-items-stretch">
+          {/* <nav className="navbar navbar-expand-md fixed-top navbar-dark justify-content-between align-items-stretch">
 
             <a className="navbar-brand order-sm-0 align-self-center mx-2" href="/">
               <img className="logo-main animated fadeIn" src={ '/img/logo_main.svg' } alt="sohosix.logo" />
@@ -64,7 +64,40 @@ class Header extends Component {
             </div>
 
 
-          </nav>
+          </nav> */}
+
+
+
+
+
+<div className="nav-box d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+      
+      <a className="mr-md-auto" href="/">
+        <img className="logo-main animated fadeIn" src={ '/img/logo_main.svg' } alt="sohosix.logo" />
+      </a>
+      
+      <nav className="my-1 my-md-2">
+        <NavLink exact to='/' className="nav-link">Home<span className="sr-only">(current)</span></NavLink>
+        <NavLink to='/Artists' className="nav-link">Artists</NavLink>
+        <NavLink to='/Releases' className="nav-link">Releases</NavLink>
+      </nav>
+
+</div>
+
+
+{/* <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Features</a>
+        <a class="p-2 text-dark" href="#">Enterprise</a>
+        <a class="p-2 text-dark" href="#">Support</a>
+        <a class="p-2 text-dark" href="#">Pricing</a>
+      </nav>
+
+</div> */}
+
+
+
 
         </header>
 

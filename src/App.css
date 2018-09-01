@@ -14,43 +14,70 @@ body.white {
   -moz-transition: 1s ease-in-out;
   transition: 1s ease-in-out; }
 
-#content {
-  padding-top: 4rem; }
-
 .section-content {
-  padding: 5rem 0; }
+  padding: 2.5rem 0; }
+
+@media screen and (max-width: 767px) {
+  .section-content {
+    padding: 1.5rem 0; } }
 
 /****  NAVBAR  ****/
 .nav-padding {
   /*min-height: 75rem;*/
   padding-top: 3.5rem; }
 
-.navbar {
+.navbar, .nav-box {
   background-color: #838383;
   height: 78px;
   border-bottom: 2px solid #545454;
   padding: 0rem 2rem; }
-  .navbar img.logo-main {
+  .navbar img.logo-main, .nav-box img.logo-main {
     height: 36px;
     /* @include translateY(-50%); */ }
-  .navbar button.navbar-toggler {
+  @media screen and (max-width: 767px) {
+    .navbar img.logo-main, .nav-box img.logo-main {
+      height: 30px; } }
+  .navbar nav, .nav-box nav {
+    display: flex;
+    flex-direction: row; }
+  .navbar button.navbar-toggler, .nav-box button.navbar-toggler {
     align-self: center; }
 
-a.nav-link {
+@media screen and (max-width: 767px) {
+  .navbar, .nav-box {
+    height: 98px;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out; } }
+
+a.nav-link, a.nav-anchor {
+  display: flex;
   text-transform: uppercase;
   font-family: "Mako", sans-serif;
+  color: #D1D1D1;
   font-size: 1.2rem;
+  padding: .5rem 1rem;
   padding-top: 1.5rem;
   height: 76px;
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out; }
-  a.nav-link:hover {
+  a.nav-link:hover, a.nav-anchor:hover {
+    color: #fff;
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out; }
 
-ul.navbar-nav a.active {
+a.nav-link.active {
+  color: #fff; }
+
+@media screen and (max-width: 767px) {
+  a.nav-link, a.nav-anchor {
+    font-size: 1rem;
+    padding-top: .5rem;
+    height: 46px; } }
+
+ul.navbar-nav a.active, nav a.active {
   border-bottom: 6px solid #99ff0e; }
 
 .nav-sublinks {
@@ -74,14 +101,13 @@ ul.navbar-nav a.active {
     display: none; } }
 
 /****  HOME  *****/
-#shout-out {
-  background-color: #d1d1d1; }
-  #shout-out .featured-card p.card-text {
-    font-size: 1.3rem; }
-  #shout-out p.card-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-align: center; }
+#shout-out .featured-card p.card-text {
+  font-size: 1.3rem; }
+
+#shout-out p.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center; }
 
 #studio-talk {
   background: url("/img/home-bg_studio.jpg") center center no-repeat;
