@@ -14,7 +14,8 @@ class ArtistsFocus extends Component {
         this.state = { 
             artist: { 
                 name: '',
-                featuredTracks: [], 
+                featuredTracks: [],
+                selectedReleases: [], 
                 media: []
             },
             // open: false 
@@ -97,9 +98,21 @@ class ArtistsFocus extends Component {
                                         <img className="img-fluid" src={ `/img/artists/${artist.image}` } alt={`${artist.name}`}  />
                                     </div>
 
-                                    <div className="selectedReleases">
-                                        Selected Releases
+                                    <div className="selectedReleases d-none d-sm-block">
+                                        <p>Selected Releases</p>
+                                        <div className="row">
 
+                                            {/* Get releases */}
+
+                                            {artist.selectedReleases.map( r => (
+
+                                                <div key={r.id} className="col-sm-4">
+                                                    <img className="img-fluid" src={ `/img/releases/${r.image}` } alt={`${r.title}`}  />
+                                                </div>
+
+                                            ))}
+
+                                        </div>
                                     </div>
 
                                 </div>
@@ -111,7 +124,7 @@ class ArtistsFocus extends Component {
                                     </div>
 
                                     <div className="featuredTracks">
-                                        Featured Tracks
+                                        <p>Featured Tracks</p>
 
                                         <ul>
                                             {/* Get featured tracks */}
@@ -145,8 +158,8 @@ class ArtistsFocus extends Component {
                             <div className="row">
                                 <div className="col-sm-12">
 
-                                    <div className="title">
-                                        Media
+                                    <div className="mediaTitle">
+                                        <p>Media</p>
                                     </div>
 
                                 </div>

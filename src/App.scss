@@ -4,9 +4,11 @@ $darkGrey: #545454;
 $medGrey: #838383;
 $lightGrey: #D1D1D1;
 $toxicGreen: #99ff0e;
+$sectionHeader: #686868;
 
 $mako: 'Mako', sans-serif;
 
+$sectionSize: 1.2rem;
 
 /****  MIXINS  ****/
 
@@ -302,6 +304,16 @@ ul.navbar-nav a.active, nav a.active {
 	// 	width: 540px;
 	// }
 
+	.selectedReleases {
+		margin-top: 50px;
+
+		p {
+			color: $sectionHeader;
+			font-size: $sectionSize;
+		}
+	}
+
+
 	.aboutArtist {
 
 		p.title {
@@ -312,6 +324,12 @@ ul.navbar-nav a.active, nav a.active {
 	}	
 
 	.featuredTracks {
+
+		p {
+			color: $sectionHeader;
+			font-size: $sectionSize;
+		}
+
 
 		ul {
 			list-style: none;
@@ -325,8 +343,6 @@ ul.navbar-nav a.active, nav a.active {
 
 		}
 
-
-
 		iframe {
 			border: 0;
 			width: 100%;
@@ -339,8 +355,11 @@ ul.navbar-nav a.active, nav a.active {
 
 #artistFocusBottom {
 	
-	div.title {
-		font-weight: bold;
+	.mediaTitle {
+		p {
+			color: $sectionHeader;
+			font-size: $sectionSize;
+		}
 	}
 
 	img.media {

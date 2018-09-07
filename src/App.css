@@ -164,9 +164,19 @@ ul.navbar-nav a.active, nav a.active {
   #artists .row:nth-child(even) .whiteBox div:first-child {
     order: 0; } }
 
+#artistFocusTop .selectedReleases {
+  margin-top: 50px; }
+  #artistFocusTop .selectedReleases p {
+    color: #686868;
+    font-size: 1.2rem; }
+
 #artistFocusTop .aboutArtist p.title {
   font-family: "Mako", sans-serif;
   font-size: 3rem; }
+
+#artistFocusTop .featuredTracks p {
+  color: #686868;
+  font-size: 1.2rem; }
 
 #artistFocusTop .featuredTracks ul {
   list-style: none;
@@ -181,8 +191,9 @@ ul.navbar-nav a.active, nav a.active {
   width: 100%;
   height: 42px; }
 
-#artistFocusBottom div.title {
-  font-weight: bold; }
+#artistFocusBottom .mediaTitle p {
+  color: #686868;
+  font-size: 1.2rem; }
 
 #artistFocusBottom img.media {
   padding-bottom: 40px; }

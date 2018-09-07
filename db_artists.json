@@ -4,7 +4,7 @@
             "id": 1,
             "name": "ACEAN",
             "text": "Anthony Green & Justin Morgan work together as Acean to create their version of Detroit Techno influenced by the various studio locations from the past few years.",
-            "textFull": "sasasas... Full Text for ACEAN",
+            "textFull": "Full Text for ACEAN. Morbi eu lacus lobortis, malesuada nulla ut, pulvinar nunc. Morbi eu dictum augue, et rutrum elit. Mauris mollis iaculis tellus at blandit. Duis euismod ipsum condimentum laoreet varius. Phasellus placerat, purus in sagittis tincidunt, urna lacus molestie urna, id auctor velit nisi ac erat. Fusce viverra nisi nisi, in volutpat est luctus sit amet. In finibus magna leo, quis blandit erat ultricies eget. In non odio justo. Mauris in dolor tincidunt purus luctus lacinia vitae id est. Phasellus facilisis, mauris sed euismod mollis, nisi lectus accumsan nunc, non varius erat felis in nibh.",
             "style": "Detroit Techno, House",
             "image": "artists_ACEAN_01.jpg",
             "featuredTracks": [
@@ -23,19 +23,48 @@
                     "albumTitle": "Summer Seventeen by Rusuden"
                 }     
             ],
+            "selectedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Manhattan",
+                    "image": "SOL017.jpg",
+                    "cat": "SOL017",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Seal Beach",
+                    "image": "SOL012.jpg",
+                    "cat": "SOL012",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Squeeze / Squiggle",
+                    "image": "SOL016.jpg",
+                    "cat": "SOL016",
+                    "link": "something"
+                }  
+            ],
             "media": [
                 {
                     "video": 1, 
-                    "title": "Video 1",
-                    "image": "Rusuden_Media_01.jpg",
-                    "url": "https://www.youtube.com/embed/WByzzzsCQjw?rel=0"
+                    "title": "Seal Beach promo",
+                    "image": "ACEAN_Media_01.jpg",
+                    "url": "https://www.youtube.com/embed/jvrZrsrwzG4"
                 },
                 {
                     "video": 2, 
-                    "title": "Video 2",
-                    "image": "Rusuden_Media_02.jpg",
-                    "url": "https://www.youtube.com/embed/deDin2bZaJg"
-                }   
+                    "title": "Manhattan promo",
+                    "image": "ACEAN_Media_02.jpg",
+                    "url": "https://www.youtube.com/embed/yduTFeTv-Ms"
+                },
+                {
+                    "video": 3, 
+                    "title": "Modded SH-101 in studio",
+                    "image": "ACEAN_Media_03.jpg",
+                    "url": "https://www.youtube.com/embed/uFwW20W9vV4"
+                }  
             ] 
         },
         {
@@ -98,6 +127,29 @@
                     "albumLink": "http://music.rusuden.com/album/summer-seventeen",
                     "albumTitle": "Summer Seventeen by Rusuden"
                 }     
+            ],
+            "selectedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 3",
+                    "image": "SOL018.jpg",
+                    "cat": "SOL018",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Volna",
+                    "image": "SOL013.jpg",
+                    "cat": "SOL013",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Fe IX/X 171 A",
+                    "image": "SOL003.jpg",
+                    "cat": "SOL003",
+                    "link": "something"
+                }  
             ],
             "media": [
                 {
