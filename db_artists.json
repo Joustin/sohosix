@@ -10,18 +10,53 @@
             "featuredTracks": [
                 {
                     "track": 1, 
-                    "title": "A Guide To Drawing",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=2446920885/transparent=true/",
-                    "albumLink": "http://music.rusuden.com/album/volume-3",
-                    "albumTitle": "Volume 3 by Rusuden"
+                    "title": "Robot Butler",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=2731487020/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Seal Beach"
                 },
                 {
                     "track": 2, 
-                    "title": "Summer Seventeen",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=290471142/size=small/bgcol=ffffff/linkcol=333333/track=3736423520/transparent=true/",
-                    "albumLink": "http://music.rusuden.com/album/summer-seventeen",
-                    "albumTitle": "Summer Seventeen by Rusuden"
-                }     
+                    "title": "Neon Glow",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=550366697/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Seal Beach"
+                },
+                {
+                    "track": 3, 
+                    "title": "Madison Winter B/W",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=2618353492/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Manhattan"
+                },
+                {
+                    "track": 4, 
+                    "title": "Encyclical Blood Moon",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=3740075141/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Manhattan"
+                },
+                {
+                    "track": 5, 
+                    "title": "Ray Bay",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=1626595246/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Seal Beach"
+                },
+                {
+                    "track": 6, 
+                    "title": "Squiggle",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1244650774/size=small/bgcol=ffffff/linkcol=333333/track=966306371/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Squeeze / Squiggle"
+                },
+                {
+                    "track": 7, 
+                    "title": "Hot Ngam",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=33400534/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Manhattan"
+                }
             ],
             "selectedReleases": [
                 {
@@ -109,24 +144,70 @@
             "id": 3,
             "name": "Rusuden",
             "text": "Short info text about Rusuden.  yay",
-            "textFull": "Here's some info text. With A LOT more stuff to read yay",
+            "textFull": "Full Text for Rusuden. Morbi eu lacus lobortis, malesuada nulla ut, pulvinar nunc. Morbi eu dictum augue, et rutrum elit. Mauris mollis iaculis tellus at blandit. Duis euismod ipsum condimentum laoreet varius. Phasellus placerat, purus in sagittis tincidunt, urna lacus molestie urna, id auctor velit nisi ac erat. Fusce viverra nisi nisi, in volutpat est luctus sit amet. In finibus magna leo, quis blandit erat ultricies eget. In non odio justo. Mauris in dolor tincidunt purus luctus lacinia vitae id est. Phasellus facilisis, mauris sed euismod mollis, nisi lectus accumsan nunc, non varius erat felis in nibh.",
             "style": "Acid, Techno, IDM/Braindance",
             "image": "artists_Rusuden_01a.jpg",
             "featuredTracks": [
                 {
                     "track": 1, 
-                    "title": "A Guide To Drawing",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=2446920885/transparent=true/",
+                    "title": "Bone, Feather, Figure",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=806946172/transparent=true/",
                     "albumLink": "http://music.rusuden.com/album/volume-3",
-                    "albumTitle": "Volume 3 by Rusuden"
+                    "albumTitle": "Volume 3"
                 },
                 {
                     "track": 2, 
-                    "title": "Summer Seventeen",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=290471142/size=small/bgcol=ffffff/linkcol=333333/track=3736423520/transparent=true/",
-                    "albumLink": "http://music.rusuden.com/album/summer-seventeen",
-                    "albumTitle": "Summer Seventeen by Rusuden"
-                }     
+                    "title": "Spirit Animal",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=2526432902/size=small/bgcol=ffffff/linkcol=333333/track=451066591/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/volna",
+                    "albumTitle": "Volna"
+                },
+                {
+                    "track": 3, 
+                    "title": "Volna (Wave Machine)",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=2526432902/size=small/bgcol=ffffff/linkcol=333333/track=8813392/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/volna",
+                    "albumTitle": "Volna"
+                },
+                {
+                    "track": 4, 
+                    "title": "Snogon",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1218959398/size=small/bgcol=ffffff/linkcol=333333/track=3412543248/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/fe-ix-x-171-a",
+                    "albumTitle": "Fe IX/X 171 A"
+                },
+                {
+                    "track": 5, 
+                    "title": "Acid Abyss",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1390409737/size=small/bgcol=ffffff/linkcol=333333/track=1989559885/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/death-by-din-sync",
+                    "albumTitle": "Death By Din Sync"
+                },
+                {
+                    "track": 6, 
+                    "title": "3am Rave R",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=2248739308/size=small/bgcol=ffffff/linkcol=333333/track=758850326/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/volume-2",
+                    "albumTitle": "Volume 2"
+                },
+                {
+                    "track": 7, 
+                    "title": "Hello Human",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=3306905613/size=small/bgcol=ffffff/linkcol=333333/track=1540954270/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/october",
+                    "albumTitle": "October"
+                },
+                {
+                    "track": 8, 
+                    "title": "Fifteen",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=77329372/size=small/bgcol=ffffff/linkcol=333333/track=275892109/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/themes-from-a-distant-planetoid",
+                    "albumTitle": "Themes From A Distant Planetoid"
+                }  
+                
+                
+
+
             ],
             "selectedReleases": [
                 {

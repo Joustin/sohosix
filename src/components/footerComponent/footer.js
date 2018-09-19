@@ -7,29 +7,16 @@ class Footer extends Component {
       <footer id="footer-main">
           <div className="container">
               <div className="row">
-                  <div className="col-sm-3">
-                      <p>uncopyright 2018... balalalal</p>
-                      <p>bunk</p>
+                  <div className="col-6">
+                      <p><a href="">Privacy Policy</a></p>
+                      <p>&copy; 2018 Soho Six Records</p>
                   </div>
-                  <div className="col-sm-3">
-                      <ul className="list-unstyled">
-                          <li><a href="">home</a></li>
-                          <li><a href="">what we do</a></li>
-                          <li><a href="">about</a></li>
-                          <li><a href="">latest</a></li>
+                  <div className="col-6 social-icons">
+                      <ul>
+                          <li><a href="http://sohosix.bandcamp.com/" target="_blank"><img className="icon" src={ '/img/icons/bandcamp.svg' } alt="bandcamp" /></a></li>
+                          <li><a href="https://twitter.com/Rusuden" target="_blank"><img className="icon" src={ '/img/icons/twitter.svg' } alt="twitter" /></a></li>
+                          <li><a href="mailto:hellohuman@sohosix.com" target="_blank"><img className="icon" src={ '/img/icons/email.svg' } alt="email" /></a></li>
                       </ul>
-                  </div>
-                  <div className="col-sm-3">
-                      <ul className="list-unstyled">
-                          <li><a href="">facebook</a></li>
-                          <li><a href="">twitter</a></li>
-                          <li><a href="">youtube</a></li>
-                          <li><a href="">linkedin</a></li>
-                      </ul>
-                  </div>
-                  <div className="col-sm-3">
-                      <h6>small title</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam expedita fugit saepe, eum ad, quam! Eum magnam suscipit nulla ullam aliquam consectetur provident, nihil consequuntur porro labore asperiores corrupti esse?</p>
                   </div>
               </div>
           </div>

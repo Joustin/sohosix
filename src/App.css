@@ -100,6 +100,33 @@ ul.navbar-nav a.active, nav a.active {
   .nav-sublinks div {
     display: none; } }
 
+/****  FOOTER  ****/
+#footer-main {
+  background-color: #343434;
+  color: #838383; }
+  #footer-main .row {
+    align-items: center;
+    height: 105px; }
+    #footer-main .row p {
+      margin-bottom: 0rem; }
+      #footer-main .row p a {
+        color: #D1D1D1; }
+    #footer-main .row .social-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+      #footer-main .row .social-icons ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none; }
+        #footer-main .row .social-icons ul li {
+          margin-right: 1.3rem; }
+          #footer-main .row .social-icons ul li .icon {
+            height: 25px; }
+
 /****  HOME  *****/
 #shout-out .featured-card p.card-text {
   font-size: 1.3rem; }
@@ -165,10 +192,14 @@ ul.navbar-nav a.active, nav a.active {
     order: 0; } }
 
 #artistFocusTop .selectedReleases {
-  margin-top: 50px; }
+  margin-top: 40px; }
   #artistFocusTop .selectedReleases p {
     color: #686868;
     font-size: 1.2rem; }
+
+@media screen and (max-width: 991px) {
+  #artistFocusTop .selectedReleases {
+    margin-top: 20px; } }
 
 #artistFocusTop .aboutArtist p.title {
   font-family: "Mako", sans-serif;
@@ -184,7 +215,10 @@ ul.navbar-nav a.active, nav a.active {
   padding: 0px; }
   #artistFocusTop .featuredTracks ul li {
     margin: 0px;
-    padding: 0px; }
+    padding: 0px 0px 15px 0px; }
+  @media screen and (max-width: 991px) {
+    #artistFocusTop .featuredTracks ul li {
+      padding: 0px 0px 5px 0px; } }
 
 #artistFocusTop .featuredTracks iframe {
   border: 0;

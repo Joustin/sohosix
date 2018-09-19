@@ -1,6 +1,7 @@
 /*****  VARS  ****/
 
 $darkGrey: #545454;
+$darkerGrey: #343434;
 $medGrey: #838383;
 $lightGrey: #D1D1D1;
 $toxicGreen: #99ff0e;
@@ -176,6 +177,60 @@ ul.navbar-nav a.active, nav a.active {
 	}
 }
 
+/****  FOOTER  ****/
+
+#footer-main {
+	background-color: $darkerGrey;
+	color: $medGrey;
+
+	.row {
+		align-items: center;
+		height: 105px;
+		
+		p {
+			margin-bottom: 0rem;
+
+			a {
+				color: $lightGrey;
+			}
+
+		}
+		
+		.social-icons {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+
+			ul {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				padding-left: 0;
+				margin-bottom: 0;
+				list-style: none;	
+		
+				li {
+					margin-right: 1.3rem;
+	
+					.icon {
+						height: 25px;
+					}
+	
+	
+				}
+		
+			}			
+
+		}
+
+
+	}
+
+
+
+}
+
+
 /****  HOME  *****/
 
 #shout-out {
@@ -305,7 +360,7 @@ ul.navbar-nav a.active, nav a.active {
 	// }
 
 	.selectedReleases {
-		margin-top: 50px;
+		margin-top: 40px;
 
 		p {
 			color: $sectionHeader;
@@ -313,6 +368,13 @@ ul.navbar-nav a.active, nav a.active {
 		}
 	}
 
+	@media screen and (max-width: 991px) {
+
+		.selectedReleases {
+			margin-top: 20px;
+		}
+
+	}
 
 	.aboutArtist {
 
@@ -338,7 +400,15 @@ ul.navbar-nav a.active, nav a.active {
 
 			li {
 				margin: 0px;
-				padding: 0px;
+				padding: 0px 0px 15px 0px;
+			}
+
+			@media screen and (max-width: 991px) {
+
+				li {
+					padding: 0px 0px 5px 0px;
+				}
+		
 			}
 
 		}
