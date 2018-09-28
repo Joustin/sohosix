@@ -1,0 +1,958 @@
+{
+    "Releases": [
+        {
+            "id": 12,
+            "artist": "Rusuden",
+            "title" : "Lextown 303",
+            "cat": "SOL009",
+            "date": "07/14/2014",
+            "image": "SOL009.jpg",
+            "buy": "https://music.rusuden.com/album/lextown-303",
+            "text": "2 track single from my archives. Recorded from 2011 - 2012 in Lexington, KY ",
+            "style": "Techno, Acid, Ambient, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Lextown 303"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Cr02"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 2",
+                    "image": "SOL015.jpg",
+                    "cat": "SOL015",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Squeeze / Squiggle",
+                    "image": "SOL016.jpg",
+                    "cat": "SOL016",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Summer Seventeen",
+                    "image": "SOL019.jpg",
+                    "cat": "SOL019",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "4135473842",
+                    "title": "Lextown 303",
+                    "artist": "Rusuden",
+                    "height": "208px",
+                    "link": "http://music.rusuden.com/album/lextown-303"
+                }
+            ]
+
+        },
+        {
+            "id": 11,
+            "artist": "Justin Morgan",
+            "title" : "Summer XII",
+            "cat": "SOL008b",
+            "date": "06/25/2012",
+            "image": "SOL008b.jpg",
+            "buy": "https://sohosix.bandcamp.com/album/summer-xii",
+            "text": "Three electronic tracks... ",
+            "style": "Techno, Experimental, Ambient",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Summer XII"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Junebug"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Rain Storm 14"
+                }
+
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Summer XI",
+                    "image": "SOL008a.jpg",
+                    "cat": "SOL008a",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Afterlife",
+                    "image": "SOL006.jpg",
+                    "cat": "SOL006",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "October",
+                    "image": "SOL011.jpg",
+                    "cat": "SOL011",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "801330781",
+                    "title": "Summer XII",
+                    "artist": "Justin Morgan",
+                    "height": "241px",
+                    "link": "http://sohosix.bandcamp.com/album/summer-xii"
+                }
+            ]
+
+        },        
+        {
+            "id": 10,
+            "artist": "Justin Morgan",
+            "title" : "Summer XI",
+            "cat": "SOL008a",
+            "date": "07/18/2011",
+            "image": "SOL008a.jpg",
+            "buy": "https://music.rusuden.com/album/summer-xi",
+            "text": "Soho Six Records - SOL008a ",
+            "style": "Techno, Experimental",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Summer XI"
+                }, 
+                {
+                    "id": 2,
+                    "name": "STS-135: Atlantis"
+                }
+
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Summer XII",
+                    "image": "SOL008b.jpg",
+                    "cat": "SOL008b",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Afterlife",
+                    "image": "SOL006.jpg",
+                    "cat": "SOL006",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Quiddity",
+                    "image": "SOL000.jpg",
+                    "cat": "SOL000",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "4017720915",
+                    "title": "Summer XI",
+                    "artist": "Justin Morgan",
+                    "height": "208px",
+                    "link": "http://music.rusuden.com/album/summer-xi"
+                }
+            ]
+
+        }, 
+        {
+            "id": 9,
+            "artist": "Rusuden",
+            "title" : "Themes From A Distant Planetoid",
+            "cat": "SOL007",
+            "date": "05/16/2011",
+            "image": "SOL007.jpg",
+            "buy": "https://music.rusuden.com/album/themes-from-a-distant-planetoid",
+            "text": "Justin Morgan creates music under the name Rusuden. His musical output ranges from ambient, idm and breaks... to acid, house and techno. THEMES FROM A DISTANT PLANETOID sees Justin returning to calmer waters compared to his acid, techno tracks. Like the album Death By Din Sync, a host of vintage analog synths were used, however these songs feature digital machines such as Elektron’s Sidstation and Waldorf’s Q & Blofeld, as well as a Martin D-15 guitar. Cover art painted by Mary Spring. ",
+            "style": "Chillout, IDM, Minimal, Ambient",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Morning Guitar 1"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Fifteen"
+                },
+                {
+                    "id": 3,
+                    "name": "Negative Zone"
+                },
+                {
+                    "id": 4,
+                    "name": "80s Dream Sequence"
+                },
+                {
+                    "id": 5,
+                    "name": "Compassion Wave"
+                },
+                {
+                    "id": 6,
+                    "name": "Scout Mission"
+                },
+                {
+                    "id": 7,
+                    "name": "Endless, Blameless"
+                },
+                {
+                    "id": 8,
+                    "name": "The Sun On Her Feet"
+                },
+                {
+                    "id": 9,
+                    "name": "Gom Jabbar"
+                },
+                {
+                    "id": 10,
+                    "name": "Morning Guitar 2"
+                }
+
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "October",
+                    "image": "SOL011.jpg",
+                    "cat": "SOL011",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Warm Human Antennae",
+                    "image": "SOL001.jpg",
+                    "cat": "SOL001",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Quiddity",
+                    "image": "SOL000.jpg",
+                    "cat": "SOL000",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "77329372",
+                    "title": "Themes From A Distant Planetoid",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/themes-from-a-distant-planetoid"
+                }
+            ]
+
+        }, 
+        {
+            "id": 8,
+            "artist": "Rusuden",
+            "title" : "Afterlife",
+            "cat": "SOL006",
+            "date": "09/07/2010",
+            "image": "SOL006.jpg",
+            "buy": "https://music.rusuden.com/album/afterlife",
+            "text": "Recorded in 2006... during a case of chronic fatigue for a few months. It's somewhat of a an ambient/minimal album... Album cover is a photo I took in high school, for photography class, of my friend at a local park/cemetery in Jacksonville, FL. ",
+            "style": "Acid, IDM, Minimal, Ambient",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Vivid Id"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Physical Telepathy"
+                },
+                {
+                    "id": 3,
+                    "name": "Greenhaus"
+                },
+                {
+                    "id": 4,
+                    "name": "Roland Gnome"
+                },
+                {
+                    "id": 5,
+                    "name": "Ping Ping"
+                },
+                {
+                    "id": 6,
+                    "name": "Voices on Tape"
+                },
+                {
+                    "id": 7,
+                    "name": "Martian Translation"
+                },
+                {
+                    "id": 8,
+                    "name": "Fever"
+                },
+                {
+                    "id": 9,
+                    "name": "Sleeper"
+                },
+                {
+                    "id": 10,
+                    "name": "Micro Midnight"
+                },
+                {
+                    "id": 11,
+                    "name": "Easter Acid"
+                },
+                {
+                    "id": 12,
+                    "name": "Vivid Ego"
+                }
+
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Machines II",
+                    "image": "SOL014.jpg",
+                    "cat": "SOL014",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Summer XI",
+                    "image": "SOL008a.jpg",
+                    "cat": "SOL008a",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Summer XII",
+                    "image": "SOL008b.jpg",
+                    "cat": "SOL008b",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "1227694412",
+                    "title": "Afterlife",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/afterlife"
+                }
+            ]
+
+        }, 
+        {
+            "id": 7,
+            "artist": "Rusuden",
+            "title" : "Death By Din Sync",
+            "cat": "SOL005",
+            "date": "04/06/2009",
+            "image": "SOL005.jpg",
+            "buy": "https://music.rusuden.com/album/death-by-din-sync",
+            "text": "Acid / Techno album by Rusuden. Made almost entirely using vintage Roland gear, with help from other machines & software. ",
+            "style": "Acid, Techno, IDM, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "DMO"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Pigweed"
+                },
+                {
+                    "id": 3,
+                    "name": "Acid Abyss"
+                },
+                {
+                    "id": 4,
+                    "name": "600 Summers"
+                },
+                {
+                    "id": 5,
+                    "name": "Tailypo"
+                },
+                {
+                    "id": 6,
+                    "name": "Yes, I Can Feel It"
+                },
+                {
+                    "id": 7,
+                    "name": "Nevergreen"
+                },
+                {
+                    "id": 8,
+                    "name": "JX Acid Flex"
+                },
+                {
+                    "id": 9,
+                    "name": "See What Happens"
+                },
+                {
+                    "id": 10,
+                    "name": "Lazy Tongue"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 1",
+                    "image": "SOL010.jpg",
+                    "cat": "SOL010",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Volume 3",
+                    "image": "SOL018.jpg",
+                    "cat": "SOL018",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Lextown 303",
+                    "image": "SOL009.jpg",
+                    "cat": "SOL009",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "1390409737",
+                    "title": "Death By Din Sync",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/death-by-din-sync"
+                }
+            ]
+
+        },        
+        {
+            "id": 6,
+            "artist": "Rusuden",
+            "title" : "Random Analog Transmissions",
+            "cat": "SOL004",
+            "date": "12/01/2008",
+            "image": "SOL004.jpg",
+            "buy": "https://music.rusuden.com/album/random-analog-transmissions",
+            "text": "Rusuden presents: Random Analog Transmissions... a collection of demo tracks, showcasing some of my favorite synthesizers & drum machines. The collection was a "work in progress" and is now complete. ",
+            "style": "Acid, Techno, IDM, Ambient, Bleep",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "My Carpenter"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Future Eyes"
+                },
+                {
+                    "id": 3,
+                    "name": "Jered's Theme"
+                },
+                {
+                    "id": 4,
+                    "name": "People Want To Know"
+                },
+                {
+                    "id": 5,
+                    "name": "DCO VCO"
+                },
+                {
+                    "id": 6,
+                    "name": "Saturday Morning Arp"
+                },
+                {
+                    "id": 7,
+                    "name": "Nom Nom Nom"
+                },
+                {
+                    "id": 8,
+                    "name": "Jumping Waves"
+                },
+                {
+                    "id": 9,
+                    "name": "White Pine"
+                },
+                {
+                    "id": 10,
+                    "name": "Sample & Hold"
+                },
+                {
+                    "id": 11,
+                    "name": "Steppin' 600"
+                },
+                {
+                    "id": 12,
+                    "name": "New Circle"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Death By Din Sync",
+                    "image": "SOL005.jpg",
+                    "cat": "SOL005",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Themes From A Distant Planetoid",
+                    "image": "SOL007.jpg",
+                    "cat": "SOL007",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Volume 1",
+                    "image": "SOL010.jpg",
+                    "cat": "SOL010",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "1624650486",
+                    "title": "Random Analog Transmissions",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/random-analog-transmissions"
+                }
+            ]
+
+        },
+        {
+            "id": 5,
+            "artist": "Rusuden",
+            "title" : "Fe IX/X 171 A",
+            "cat": "SOL003x",
+            "date": "10/29/2007",
+            "image": "SOL003x.jpg",
+            "buy": "https://music.rusuden.com/album/fe-ix-x-171-a",
+            "text": "For his latest musical escapade, Rusuden has his eyes set firmly on the dance floor. The snappily titled Fe IX/X 171 A, a scientific term relating to the process of imaging solar activity via ultraviolet light, features seven slices of unadulterated old school electro with subtle injections of acid and ambient, tempered with an ounce of Germanic minimalism. The mood evokes in turn the Richard D James of Polygon Window, early Ritchie Hawtin, B12 or early Black Dog even. Fe IX/X 171 A also marks a new creative peak for Rusuden. Clocking at just twenty-five minutes for seven tracks, Fe IX/X 171 A is a very concise and tight affair. Morgan’s delivery is confident and efficient. His soundscapes fuse classic electronic tones and futuristic vision, particularly on Snogon, Zanika or Takkong, whilst he engineers much coarser formations on tracks such as Yametarans or Yadokirin. The compositions work on a variety of levels, as different elements become obvious with repeat listens. Cold bleeps, acid squirts and regimented beats reveal hidden lush warm analogue soundwaves, secondary melodies and even occasional voices to complete Rusuden’s intricate tapestry. Morgan keeps rhythms and melodies fluid and fresh, and excellent sonic consistency, all the way through as he focuses on setting feet as much as mind in motion. - The Milk Factory",
+            "style": "IDM, Ambient, Braindance, Acid",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Snogon"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Zanika"
+                },
+                {
+                    "id": 3,
+                    "name": "Kupukupu"
+                },
+                {
+                    "id": 4,
+                    "name": "Yametarans"
+                },
+                {
+                    "id": 5,
+                    "name": "Yadokirin"
+                },
+                {
+                    "id": 6,
+                    "name": "Takkong"
+                },
+                {
+                    "id": 7,
+                    "name": "Stegon"
+                },
+                {
+                    "id": 8,
+                    "name": "Varricane"
+                },
+                {
+                    "id": 9,
+                    "name": "Gudon"
+                },
+                {
+                    "id": 10,
+                    "name": "Dangar"
+                },
+                {
+                    "id": 11,
+                    "name": "Plooma"
+                },
+                {
+                    "id": 12,
+                    "name": "Twintail"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Fe IX/X 171 A",
+                    "image": "SOL003.jpg",
+                    "cat": "SOL003",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Afterlife",
+                    "image": "SOL006.jpg",
+                    "cat": "SOL006",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Volume 2",
+                    "image": "SOL015.jpg",
+                    "cat": "SOL015",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "1218959398",
+                    "title": "Fe IX/X 171 A",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/fe-ix-x-171-a"
+                }
+            ]
+
+        }, 
+        {
+            "id": 4,
+            "artist": "Rusuden",
+            "title" : "Fe IX/X 171 A",
+            "cat": "SOL003",
+            "date": "10/29/2007",
+            "image": "SOL003.jpg",
+            "buy": "https://music.rusuden.com/album/fe-ix-x-171-a",
+            "text": "For his latest musical escapade, Rusuden has his eyes set firmly on the dance floor. The snappily titled Fe IX/X 171 A, a scientific term relating to the process of imaging solar activity via ultraviolet light, features seven slices of unadulterated old school electro with subtle injections of acid and ambient, tempered with an ounce of Germanic minimalism. The mood evokes in turn the Richard D James of Polygon Window, early Ritchie Hawtin, B12 or early Black Dog even. Fe IX/X 171 A also marks a new creative peak for Rusuden. Clocking at just twenty-five minutes for seven tracks, Fe IX/X 171 A is a very concise and tight affair. Morgan’s delivery is confident and efficient. His soundscapes fuse classic electronic tones and futuristic vision, particularly on Snogon, Zanika or Takkong, whilst he engineers much coarser formations on tracks such as Yametarans or Yadokirin. The compositions work on a variety of levels, as different elements become obvious with repeat listens. Cold bleeps, acid squirts and regimented beats reveal hidden lush warm analogue soundwaves, secondary melodies and even occasional voices to complete Rusuden’s intricate tapestry. Morgan keeps rhythms and melodies fluid and fresh, and excellent sonic consistency, all the way through as he focuses on setting feet as much as mind in motion. - The Milk Factory",
+            "style": "IDM, Ambient, Braindance, Acid",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Snogon"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Zanika"
+                },
+                {
+                    "id": 3,
+                    "name": "Kupukupu"
+                },
+                {
+                    "id": 4,
+                    "name": "Yametarans"
+                },
+                {
+                    "id": 5,
+                    "name": "Yadokirin"
+                },
+                {
+                    "id": 6,
+                    "name": "Takkong"
+                },
+                {
+                    "id": 7,
+                    "name": "Stegon"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Fe IX/X 171 A",
+                    "image": "SOL003x.jpg",
+                    "cat": "SOL003x",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Afterlife",
+                    "image": "SOL006.jpg",
+                    "cat": "SOL006",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Volume 2",
+                    "image": "SOL015.jpg",
+                    "cat": "SOL015",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "1218959398",
+                    "title": "Fe IX/X 171 A",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/fe-ix-x-171-a"
+                }
+            ]
+
+        },         
+        {
+            "id": 3,
+            "artist": "Rusuden",
+            "title" : "Z28",
+            "cat": "SOL002",
+            "date": "10/29/2001",
+            "image": "SOL002.jpg",
+            "buy": "https://music.rusuden.com/album/z28",
+            "text": "originally released in 2001 as a handmade CDR with dayglo green case & transparency artwork, created for shows and limited website sales. In 2006, a slightly different version was released with some crappy outtakes and different artwork (regular case, full color print). Now in 2014, this is the final version with 12 tracks total. (No case, digital only) Track 10 is a remix of Global Goon. He had a contest on his site or a forum, I can't remember. That's him playing the bass... I played all the guitar parts. I still love this remix. Track 11 is a remix of Multiplex. They had a similar deal... Track 12 is a remix of Whitetrash Shaolin. The are friends of mine, and this is my version of a fave track from their Fu Man Chaw release.",
+            "style": "IDM, Leftfield, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Afterdinnermintz"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Stalfosia"
+                },
+                {
+                    "id": 3,
+                    "name": "Penki-ki"
+                },
+                {
+                    "id": 4,
+                    "name": "Rusuden Theme"
+                },
+                {
+                    "id": 5,
+                    "name": "Baloo Is A Bear"
+                },
+                {
+                    "id": 6,
+                    "name": "EFF One"
+                },
+                {
+                    "id": 7,
+                    "name": "La Frazada Del Ardor"
+                },
+                {
+                    "id": 8,
+                    "name": "Swolnip"
+                },
+                {
+                    "id": 9,
+                    "name": "Battle Tractor"
+                },
+                {
+                    "id": 10,
+                    "name": "Bass Recorder (Remix)"
+                },
+                {
+                    "id": 11,
+                    "name": "With Hands And Feet (Rusuden Remix)"
+                },
+                {
+                    "id": 12,
+                    "name": "A Lesson (Rusuden Remix)"
+                }
+
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 1",
+                    "image": "SOL010.jpg",
+                    "cat": "SOL010",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Fe IX/X 171 A",
+                    "image": "SOL003x.jpg",
+                    "cat": "SOL003x",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Afterlife",
+                    "image": "SOL006.jpg",
+                    "cat": "SOL006",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "1266878108",
+                    "title": "Z28",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/z28"
+                }
+            ]
+
+        }, 
+        {
+            "id": 2,
+            "artist": "Rusuden",
+            "title" : "Warm Human Antennae",
+            "cat": "SOL001",
+            "date": "10/29/2005",
+            "image": "SOL001.jpg",
+            "buy": "https://music.rusuden.com/album/warm-human-antennae",
+            "text": "Warm Human Antennae, zips into a strange world where breakbeats, warm synths, guitar and even the acid bassline find a home... millions of miles away. With some tracks themed on visits to an alien, other world lounge - you can almost see the smoke trails come off the imported cigarettes from planet Earth. Elsewhere, a mixture of ambient guitar noodling drifts into a braindance drum kit jumble, where vocal snips fade into a multi-colored blend of sound.",
+            "style": "IDM, Acid, Leftfield",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Wear Away The Filter"
+                }, 
+                {
+                    "id": 2,
+                    "name": "June (October Mix)"
+                },
+                {
+                    "id": 3,
+                    "name": "Bluegrass"
+                },
+                {
+                    "id": 4,
+                    "name": "Voicemail"
+                },
+                {
+                    "id": 5,
+                    "name": "Raygoth"
+                },
+                {
+                    "id": 6,
+                    "name": "New Religion"
+                },
+                {
+                    "id": 7,
+                    "name": "Fell Asleep Laughing"
+                },
+                {
+                    "id": 8,
+                    "name": "Grumble Grumble"
+                },
+                {
+                    "id": 9,
+                    "name": "Breathe Smoke"
+                },
+                {
+                    "id": 10,
+                    "name": "Box Tops"
+                },
+                {
+                    "id": 11,
+                    "name": "E Therapy"
+                },
+                {
+                    "id": 12,
+                    "name": "Zartan A Go Go"
+                },
+                {
+                    "id": 13,
+                    "name": "Warm Human Antennae"
+                }
+
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "October",
+                    "image": "SOL011.jpg",
+                    "cat": "SOL011",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Fe IX/X 171 A",
+                    "image": "SOL003x.jpg",
+                    "cat": "SOL003x",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Lextown 303",
+                    "image": "SOL009.jpg",
+                    "cat": "SOL009",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "580271355",
+                    "title": "Warm Human Antennae",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/warm-human-antennae"
+                }
+            ]
+
+        }, 
+        {
+            "id": 1,
+            "artist": "Justin Morgan",
+            "title" : "Quiddity",
+            "cat": "SOL000",
+            "date": "08/12/2014",
+            "image": "SOL000.jpg",
+            "buy": "https://sohosix.bandcamp.com/album/quiddity",
+            "text": "analog synthesizers, guitar, sampled universe",
+            "style": "IDM, Musique concrète",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Quiddity"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Cosm"
+                },
+                {
+                    "id": 3,
+                    "name": "Metacosm"
+                },
+                {
+                    "id": 4,
+                    "name": "End Credits"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "October",
+                    "image": "SOL011.jpg",
+                    "cat": "SOL011 ",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Warm Human Antennae",
+                    "image": "SOL001.jpg",
+                    "cat": "SOL001",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Themes From A Distant Planetoid",
+                    "image": "SOL007.jpg",
+                    "cat": "SOL007",
+                    "link": "something"
+                }  
+            ],
+            "stream": [
+                {
+                    "albumCode": "2807328396",
+                    "title": "Quiddity",
+                    "artist": "Justin Morgan",
+                    "height": "274px",
+                    "link": "http://sohosix.bandcamp.com/album/quiddity"
+                }
+            ]
+
+        }
+    ]
+}
