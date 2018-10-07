@@ -63,10 +63,7 @@ a.nav-link, a.nav-anchor {
   -moz-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out; }
   a.nav-link:hover, a.nav-anchor:hover {
-    color: #fff;
-    -webkit-transition: 0.4s ease-in-out;
-    -moz-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out; }
+    color: #fff; }
 
 a.nav-link.active {
   color: #fff; }
@@ -261,6 +258,66 @@ ul.navbar-nav a.active, nav a.active {
     font-size: 1.1rem;
     font-weight: 100;
     text-align: center; }
+
+#releaseFocusTop .streamAlbum {
+  margin-top: 40px; }
+  #releaseFocusTop .streamAlbum p {
+    color: #686868;
+    font-size: 1.2rem; }
+
+@media screen and (max-width: 991px) {
+  #releaseFocusTop .streamAlbum {
+    margin-top: 20px; } }
+
+#releaseFocusTop .releaseArtist p {
+  font-family: "Mako", sans-serif;
+  font-size: 1.7rem;
+  margin-bottom: 0; }
+
+#releaseFocusTop .releaseTitle p {
+  font-family: "Mako", sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  margin-bottom: 2rem; }
+
+#releaseFocusTop .details p {
+  color: #686868;
+  font-size: 1.2rem; }
+  #releaseFocusTop .details p:first-child {
+    margin-bottom: 0; }
+  #releaseFocusTop .details p:last-child {
+    margin-bottom: 2rem; }
+
+#releaseFocusTop .buy {
+  display: flex;
+  justify-content: flex-end; }
+  #releaseFocusTop .buy a {
+    display: block;
+    color: white;
+    background-color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px;
+    width: 115px;
+    height: 40px;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out; }
+    #releaseFocusTop .buy a:hover {
+      text-decoration: none;
+      background-color: #838383;
+      color: white; }
+
+#releaseFocusTop .tracklist {
+  font-size: 1.2rem;
+  margin-bottom: 2rem; }
+  #releaseFocusTop .tracklist p {
+    margin-bottom: 0px; }
+  #releaseFocusTop .tracklist ol {
+    padding-left: 22px; }
+    #releaseFocusTop .tracklist ol li {
+      margin: 0px;
+      padding: 0px 0px 2px 0px; }
 
 /*****  EXTRAS  ******/
 .box-shadow {

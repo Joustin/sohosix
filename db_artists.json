@@ -101,9 +101,85 @@
                     "url": "https://www.youtube.com/embed/uFwW20W9vV4"
                 }  
             ] 
-        },
+        },        
         {
             "id": 2,
+            "name": "Digalogue",
+            "text": "YEYEYEY",
+            "textFull": "Full Text for Digalogue. Morbi eu lacus lobortis, malesuada nulla ut, pulvinar nunc. Morbi eu dictum augue, et rutrum elit. Mauris mollis iaculis tellus at blandit. Duis euismod ipsum condimentum laoreet varius. Phasellus placerat, purus in sagittis tincidunt, urna lacus molestie urna, id auctor velit nisi ac erat. Fusce viverra nisi nisi, in volutpat est luctus sit amet. In finibus magna leo, quis blandit erat ultricies eget. In non odio justo. Mauris in dolor tincidunt purus luctus lacinia vitae id est. Phasellus facilisis, mauris sed euismod mollis, nisi lectus accumsan nunc, non varius erat felis in nibh.",
+            "style": "Electro, Techno, IDM",
+            "image": "artists_Digalogue_01.jpg",
+            "featuredTracks": [
+                {
+                    "track": 1, 
+                    "title": "Robot Butler",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=2731487020/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Seal Beach"
+                },
+                {
+                    "track": 2, 
+                    "title": "Neon Glow",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=550366697/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Seal Beach"
+                },
+                {
+                    "track": 3, 
+                    "title": "Madison Winter B/W",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=2618353492/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Manhattan"
+                },
+                {
+                    "track": 4, 
+                    "title": "Encyclical Blood Moon",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=3740075141/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Manhattan"
+                },
+                {
+                    "track": 5, 
+                    "title": "Ray Bay",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=1626595246/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Seal Beach"
+                },
+                {
+                    "track": 6, 
+                    "title": "Squiggle",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1244650774/size=small/bgcol=ffffff/linkcol=333333/track=966306371/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Squeeze / Squiggle"
+                },
+                {
+                    "track": 7, 
+                    "title": "Hot Ngam",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=33400534/transparent=true/",
+                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+                    "albumTitle": "Manhattan"
+                }
+            ],
+            "selectedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Normal People",
+                    "image": "SOL020.jpg",
+                    "cat": "SOL020",
+                    "link": "something"
+                } 
+            ],
+            "media": [
+                {
+                    "video": 1, 
+                    "title": "Seal Beach promo",
+                    "image": "ACEAN_Media_01.jpg",
+                    "url": "https://www.youtube.com/embed/jvrZrsrwzG4"
+                } 
+            ] 
+        },
+        {
+            "id": 3,
             "name": "Mediocrates",
             "text": "Anthony Green & Justin Morgan work together as Acean to create their version of Detroit Techno influenced by the various studio locations from the past few years.",
             "textFull": "sasasas",
@@ -141,7 +217,7 @@
             ] 
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Rusuden",
             "text": "Short info text about Rusuden.  yay",
             "textFull": "Full Text for Rusuden. Morbi eu lacus lobortis, malesuada nulla ut, pulvinar nunc. Morbi eu dictum augue, et rutrum elit. Mauris mollis iaculis tellus at blandit. Duis euismod ipsum condimentum laoreet varius. Phasellus placerat, purus in sagittis tincidunt, urna lacus molestie urna, id auctor velit nisi ac erat. Fusce viverra nisi nisi, in volutpat est luctus sit amet. In finibus magna leo, quis blandit erat ultricies eget. In non odio justo. Mauris in dolor tincidunt purus luctus lacinia vitae id est. Phasellus facilisis, mauris sed euismod mollis, nisi lectus accumsan nunc, non varius erat felis in nibh.",

@@ -78,7 +78,7 @@ class ArtistsFocus extends Component {
 
         // console.log("Hello " + artist.featuredTracks);
 
-        if (!artist) {
+        if (artist.name === '') {
 
             return <div>Sorry, there's a void.  No artist exists.</div>
 

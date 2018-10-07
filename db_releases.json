@@ -1,6 +1,795 @@
 {
     "Releases": [
         {
+            "id": 23,
+            "artist": "Digalogue",
+            "title" : "Normal People",
+            "cat": "SOL020",
+            "date": "10/29/2018",
+            "image": "SOL020.jpg",
+            "buy": "https://music.rusuden.com/album/normal-people",
+            "text": "Music set aside for years now finds a collective home as Digalogue, a new alias for artist Justin Morgan on Soho Six Records. The mini-album, Normal People, explores the electro side of techno with sounds of FM and subtractive synthesis. ",
+            "style": "Techno, Electro, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Normal People"
+                }, 
+                {
+                    "id": 2,
+                    "name": "The Document"
+                }, 
+                {
+                    "id": 3,
+                    "name": "LIGO"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Intermission"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Break The Stereo"
+                }, 
+                {
+                    "id": 6,
+                    "name": "J-UZMIR"
+                }, 
+                {
+                    "id": 7,
+                    "name": "getElementByID"
+                }
+       
+               ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volna",
+                    "image": "SOL013.jpg",
+                    "cat": "SOL013",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Seal Beach",
+                    "image": "SOL012.jpg",
+                    "cat": "SOL012",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Manhattan",
+                    "image": "SOL017.jpg",
+                    "cat": "SOL017",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "1737388990",
+                    "title": "Normal People",
+                    "artist": "Digalogue",
+                    "height": "373px",
+                    "link": "https://music.rusuden.com/album/normal-people"
+                }
+            ]
+       
+        },  	
+        {
+            "id": 22,
+            "artist": "Rusuden",
+            "title" : "Summer Seventeen",
+            "cat": "SOL019",
+            "date": "08/08/2017",
+            "image": "SOL019.jpg",
+            "buy": "https://music.rusuden.com/album/summer-seventeen",
+            "text": "Three techno tracks recorded in June/July 2017",
+            "style": "Techno, Acid, Electro, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Summer Seventeen"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Wiggins Vibe"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Energy Worm"
+                }
+        
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Lextown 303",
+                    "image": "SOL009.jpg",
+                    "cat": "SOL009",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Volume 2",
+                    "image": "SOL015.jpg",
+                    "cat": "SOL015",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Summer XII",
+                    "image": "SOL008b.jpg",
+                    "cat": "SOL008b",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "290471142",
+                    "title": "Summer Seventeen",
+                    "artist": "Rusuden",
+                    "height": "241px",
+                    "link": "http://music.rusuden.com/album/summer-seventeen"
+                }
+            ]
+       
+        },  	
+        {
+            "id": 21,
+            "artist": "Rusuden",
+            "title" : "Volume 3",
+            "cat": "SOL018",
+            "date": "05/01/2017",
+            "image": "SOL018.jpg",
+            "buy": "https://music.rusuden.com/album/volume-3",
+            "text": "The next installment of tracks written with a revolving door of machines. I'm still obsessed with old Roland boxes, so they play a huge part... Mix those in with some Elektron & Waldorf characters and you've got some magic going on. These tracks were mostly written in 2016, I think. More soon. (For Meghan)",
+            "style": "Acid, Electro, Braindance, IDM",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Bone, Feather, Figure"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Close-by Fantasy"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Nostromo 101"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Swinging Bridge"
+                }, 
+                {
+                    "id": 5,
+                    "name": "A Guide To Drawing"
+                }, 
+                {
+                    "id": 6,
+                    "name": "Ahuna Mons"
+                }
+        
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Acid Abyss",
+                    "image": "SOL010.jpg",
+                    "cat": "SOL010",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Random Analog",
+                    "image": "SOL004.jpg",
+                    "cat": "SOL004",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Lextown 303",
+                    "image": "SOL009.jpg",
+                    "cat": "SOL009",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "858284836",
+                    "title": "Volume 3",
+                    "artist": "Rusuden",
+                    "height": "340px",
+                    "link": "http://music.rusuden.com/album/volume-3"
+                }
+            ]
+       
+        }, 	
+        {
+            "id": 20,
+            "artist": "ACEAN",
+            "title" : "Manhattan",
+            "cat": "SOL017",
+            "date": "06/15/2016",
+            "image": "SOL017.jpg",
+            "buy": "https://acean.bandcamp.com/album/manhattan",
+            "text": "8 techno tracks written in New York City from 2013 - 2015... under a haze of late night analog synthesis and hardware machine alchemy.",
+            "style": "Detroit Techno, Electro, IDM",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "A6 NGC 224"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Rainy Bemelmans"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Hot Ngam"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Four Five Six"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Encyclical Blood Moon"
+                }, 
+                {
+                    "id": 6,
+                    "name": "Paintwerks"
+                }, 
+                {
+                    "id": 7,
+                    "name": "Window Walkers"
+                }, 
+                {
+                    "id": 8,
+                    "name": "Madison Winter B/W"
+                }
+        
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Seal Beach",
+                    "image": "SOL012.jpg",
+                    "cat": "SOL012",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Squeeze / Squiggle",
+                    "image": "SOL016.jpg",
+                    "cat": "SOL016",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Lextown 303",
+                    "image": "SOL009.jpg",
+                    "cat": "SOL009",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "1983512245",
+                    "title": "Manhattan",
+                    "artist": "ACEAN",
+                    "height": "406px",
+                    "link": "http://acean.bandcamp.com/album/manhattan"
+                }
+            ]
+       
+        },	 	
+        {
+            "id": 19,
+            "artist": "Various",
+            "title" : "Squeeze / Squiggle",
+            "cat": "SOL016",
+            "date": "03/03/2016",
+            "image": "SOL016.jpg",
+            "buy": "https://music.rusuden.com/album/squeeze-squiggle",
+            "text": "Digital split 'single' from Rusuden & Acean features acid & electro styles heard from their previous releases. Download includes 2 hidden remixes of one of our favorite artists.  ",
+            "style": "Acid, Braindance, Techno, IDM",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Rusuden - Squeeze"
+                }, 
+                {
+                    "id": 2,
+                    "name": "ACEAN - Squiggle"
+                }, 
+                {
+                    "id": 3,
+                    "name": "untitled"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Remix 1"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Remix 2"
+                }
+        
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 3",
+                    "image": "SOL018.jpg",
+                    "cat": "SOL018",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Seal Beach",
+                    "image": "SOL012.jpg",
+                    "cat": "SOL012",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Manhattan",
+                    "image": "SOL017.jpg",
+                    "cat": "SOL017",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "1244650774",
+                    "title": "Squeeze / Squiggle",
+                    "artist": "Various",
+                    "height": "241px",
+                    "link": "http://music.rusuden.com/album/squeeze-squiggle"
+                }
+            ]
+       
+        },	
+        {
+            "id": 18,
+            "artist": "Rusuden",
+            "title" : "Volume 2",
+            "cat": "SOL015",
+            "date": "06/16/2015",
+            "image": "SOL015.jpg",
+            "buy": "https://music.rusuden.com/album/volume-2",
+            "text": "Technically 'Acid Abyss' (Volume 2)... but I don't think the name fits anymore. These tracks were made around the same time as Volume 1 (2012/2013)... Created late at night. Really late. Each one started out with 1 synth and a drum machine, recorded straight to cassette. Then I went back and carved out the final track with other machines and edits. It's tough to remember all the machines... It's a nice mix of mostly analog boxes and a few digital ones. Really nice to finally release these tracks. ",
+            "style": "Acid, Braindance, Techno, IDM",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Milford Sound"
+                }, 
+                {
+                    "id": 2,
+                    "name": "4am Rave Edit"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Veszprém"
+                }, 
+                {
+                    "id": 4,
+                    "name": "JP4 Jump Up"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Raven Run"
+                }, 
+                {
+                    "id": 6,
+                    "name": "Polyphemus Acid"
+                }, 
+                {
+                    "id": 7,
+                    "name": "3am Rave R"
+                }
+        
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 3",
+                    "image": "SOL018.jpg",
+                    "cat": "SOL018",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Acid Abyss",
+                    "image": "SOL010.jpg",
+                    "cat": "SOL010",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Death By Din Sync",
+                    "image": "SOL005.jpg",
+                    "cat": "SOL005",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "2248739308",
+                    "title": "Volume 2",
+                    "artist": "Rusuden",
+                    "height": "373px",
+                    "link": "http://music.rusuden.com/album/volume-2"
+                }
+            ]
+       
+        },		
+        {
+            "id": 17,
+            "artist": "Justin Morgan",
+            "title" : "Machines II",
+            "cat": "SOL014",
+            "date": "10/30/2014",
+            "image": "SOL014.jpg",
+            "buy": "https://music.rusuden.com/album/machines-ii",
+            "text": "Dystopian future tracks... All written in the Fall of 2014. Most were recorded directly to tape using a Tascam 112. These could be considered 'explorations in sampling', using found objects & sources in everyday life, to create the rhythm tracks. I recommend good speakers/headphones for sure. Laptop/Cellphone speakers won't give you the true picture.  ",
+            "style": "IDM, Ambient, Sountrack, Downtempo",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "HyperSleep"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Trilobite"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Cocoon"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Program 19"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Proboscis"
+                }
+        
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Fe IX​/​X 171 A",
+                    "image": "SOL003x.jpg",
+                    "cat": "SOL003x",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Afterlife",
+                    "image": "SOL006.jpg",
+                    "cat": "SOL006",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Volna",
+                    "image": "SOL013.jpg",
+                    "cat": "SOL013",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "1148830168",
+                    "title": "Machines II",
+                    "artist": "Justin Morgan",
+                    "height": "307px",
+                    "link": "http://music.rusuden.com/album/machines-ii"
+                }
+            ]
+       
+        },		
+        {
+            "id": 16,
+            "artist": "Rusuden",
+            "title" : "Volna",
+            "cat": "SOL013",
+            "date": "03/03/2014",
+            "image": "SOL013.jpg",
+            "buy": "https://music.rusuden.com/album/volna",
+            "text": "Recorded during most of 2013, tracks 1-6 were inspired by older Sc-fi films and discussions with my Ukrainian friend, Irina. Themes were decided upon, her vocals were recorded and I continued to refine the best tracks from my recording sessions. All tracks made with a modest hardware-only setup: TR-808, Matrix 1000, SH-101, SH-2, Monomachine, Slim Phatty and Blofeld. However to give the best flexibility, a handful of software sequencers were used to control a couple synthesizers. These 6 tracks were mastered by the talented Shawn Hatfield at AudibleOddities in Oakland, California... using analog equipment only. Track 7 is a collection of experiments using hardware & software synthesizers from the past 3 or 4 years. From time to time, I'll spend an evening with a chosen piece of kit and let my mind meld with the instrument... pushing boundaries, exploring textures and recording the process. *Please note: There are ultra-low frequencies within. Watch your speakers & volume. Track 8 is a collection of tracks recorded in 2014 on three different airplanes over the course of 24 hours. Each piece was recorded live on a tablet computer, using a combination of various apps, in real-time using no overdubs. From Louisville to Chicago to Los Angeles to Auckland, I travelled into the future... missing a day completely in the process. These are the sounds during that time. This is Volna. It's a journey into space, to other worlds, crossing parallel dimensions, through wormholes... floating freely into the unknown. (Vocals by: Irina Goloborodko) ",
+            "style": "Techno, Electro, Braindance, Downtempo",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Creeper"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Interstellar Module"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Spirit Animal"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Volna (Wave Machine)"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Future Love"
+                }, 
+                {
+                    "id": 6,
+                    "name": "D-brane"
+                }, 
+                {
+                    "id": 7,
+                    "name": "P-brane"
+                }, 
+                {
+                    "id": 8,
+                    "name": "I'll See You In Time"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Manhattan",
+                    "image": "SOL017.jpg",
+                    "cat": "SOL017",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Squeeze / Squiggle",
+                    "image": "SOL016.jpg",
+                    "cat": "SOL016",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Seal Beach",
+                    "image": "SOL012.jpg",
+                    "cat": "SOL012",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "2526432902",
+                    "title": "Volna",
+                    "artist": "Rusuden",
+                    "height": "406px",
+                    "link": "http://music.rusuden.com/album/volna"
+                }
+            ]
+       
+        },	
+        {
+            "id": 15,
+            "artist": "ACEAN",
+            "title" : "Seal Beach",
+            "cat": "SOL012",
+            "date": "10/29/2013",
+            "image": "SOL012.jpg",
+            "buy": "https://acean.bandcamp.com/album/seal-beach",
+            "text": "6 techno tracks written in Seal Beach, CA in 2012... under a haze of late night sound exploration and hardware machine wizardry. ",
+            "style": "Detroit Techno, Electro, IDM, Techno",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Ray Bay"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Neon Glow"
+                }, 
+                {
+                    "id": 3,
+                    "name": "June Gloom"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Vaportii"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Robot Butler"
+                }, 
+                {
+                    "id": 6,
+                    "name": "Old Town"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Manhattan",
+                    "image": "SOL017.jpg",
+                    "cat": "SOL017",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Squeeze / Squiggle",
+                    "image": "SOL016.jpg",
+                    "cat": "SOL016",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Volna",
+                    "image": "SOL013.jpg",
+                    "cat": "SOL013",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "720174632",
+                    "title": "Seal Beach",
+                    "artist": "ACEAN",
+                    "height": "340px",
+                    "link": "https://acean.bandcamp.com/album/seal-beach"
+                }
+            ]
+       
+        },	
+        {
+            "id": 14,
+            "artist": "Rusuden",
+            "title" : "October",
+            "cat": "SOL011",
+            "date": "10/08/2012",
+            "image": "SOL011.jpg",
+            "buy": "https://music.rusuden.com/album/october",
+            "text": "October is a project where I merged my interest in the sounds of the acoustic guitar with my love for analog circuitry. Borrowing from techniques of musique concrète and granular synthesis, I also incorporated manipulated samples as melodies and rhythm. The end result sounds quite different compared to my recent “acid” tracks, and somewhat hints back to my earlier output from years ago. The journey, at times difficult, was refreshing and allowed pure creative freedom. I feel that the tracks which were selected for the final release honestly showcase my experience.  (Background percussion on tracks 4 and 8 by Scott Weber)",
+            "style": "IDM, Acid, Leftfield, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Violet"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Mahogany"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Bubble & Scrape"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Aloe Vera"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Louisville"
+                }, 
+                {
+                    "id": 6,
+                    "name": "Hear Here"
+                }, 
+                {
+                    "id": 7,
+                    "name": "Bird in Slow Motion"
+                }, 
+                {
+                    "id": 8,
+                    "name": "Hello Human"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Warm Human Antennae",
+                    "image": "SOL001.jpg",
+                    "cat": "SOL001",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Summer XI",
+                    "image": "SOL008a.jpg",
+                    "cat": "SOL008a",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Themes From A Distant Planetoid",
+                    "image": "SOL007.jpg",
+                    "cat": "SOL007",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "3306905613",
+                    "title": "October",
+                    "artist": "Rusuden",
+                    "height": "406px",
+                    "link": "http://music.rusuden.com/album/october"
+                }
+            ]
+       
+        },	
+        {
+            "id": 13,
+            "artist": "Rusuden",
+            "title" : "Acid Abysss (Vol 1)",
+            "cat": "SOL010",
+            "date": "04/23/2012",
+            "image": "SOL010.jpg",
+            "buy": "https://music.rusuden.com/album/acid-abyss-vol-1",
+            "text": "Here's the first batch of tracks, taken from late night studio sessions. It's old machines playing nicely with new machines & software. Analog world meeting the digital one. Created quickly with the emphasis on texture & light/shadow. This is volume one.  (Live drums at end of track 2 by Scott Weber)",
+            "style": "Techno, Acid, Ambient, Braindance",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Amoeba Dream Body"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Snakes Plays Drum"
+                }, 
+                {
+                    "id": 3,
+                    "name": "ROM Space Knight"
+                }, 
+                {
+                    "id": 4,
+                    "name": "Nostromo 606"
+                }, 
+                {
+                    "id": 5,
+                    "name": "All Black Everything"
+                }, 
+                {
+                    "id": 6,
+                    "name": "Melatonin"
+                }
+            ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Volume 2",
+                    "image": "SOL015.jpg",
+                    "cat": "SOL015",
+                    "link": "something"
+                },
+                {
+                    "id": 2, 
+                    "title": "Squeeze / Squiggle",
+                    "image": "SOL016.jpg",
+                    "cat": "SOL016",
+                    "link": "something"
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Volume 3",
+                    "image": "SOL018.jpg",
+                    "cat": "SOL018",
+                    "link": "something"
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "2411216645",
+                    "title": "Acid Abyss",
+                    "artist": "Rusuden",
+                    "height": "340px",
+                    "link": "http://music.rusuden.com/album/acid-abyss-vol-1"
+                }
+            ]
+           
+        },	
+        {
             "id": 12,
             "artist": "Rusuden",
             "title" : "Lextown 303",
@@ -358,7 +1147,7 @@
             "date": "04/06/2009",
             "image": "SOL005.jpg",
             "buy": "https://music.rusuden.com/album/death-by-din-sync",
-            "text": "Acid / Techno album by Rusuden. Made almost entirely using vintage Roland gear, with help from other machines & software. ",
+            "text": "Acid / Techno album by Rusuden. Made almost entirely using vintage Roland gear, with help from other machines & software. (Photography by Nick)",
             "style": "Acid, Techno, IDM, Braindance",
             "tracks": [
                 {
@@ -444,7 +1233,7 @@
             "date": "12/01/2008",
             "image": "SOL004.jpg",
             "buy": "https://music.rusuden.com/album/random-analog-transmissions",
-            "text": "Rusuden presents: Random Analog Transmissions... a collection of demo tracks, showcasing some of my favorite synthesizers & drum machines. The collection was a "work in progress" and is now complete. ",
+            "text": "Rusuden presents: Random Analog Transmissions... a collection of demo tracks, showcasing some of my favorite synthesizers & drum machines. The collection was a 'work in progress' and is now complete. ",
             "style": "Acid, Techno, IDM, Ambient, Bleep",
             "tracks": [
                 {
