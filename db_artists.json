@@ -172,10 +172,40 @@
             "media": [
                 {
                     "video": 1, 
-                    "title": "Seal Beach promo",
-                    "image": "ACEAN_Media_01.jpg",
-                    "url": "https://www.youtube.com/embed/jvrZrsrwzG4"
-                } 
+                    "title": "Digalogue C4D/AE",
+                    "image": "Digalogue_Media_01.jpg",
+                    "url": "https://www.youtube.com/embed/8T5iwTpr1dA"
+                },
+                {
+                    "video": 2, 
+                    "title": "Digalogue - getElementById",
+                    "image": "Digalogue_Media_02.jpg",
+                    "url": "https://www.youtube.com/embed/JjQDtxKLyY0"
+                },
+                {
+                    "video": 3, 
+                    "title": "Digalogue - Intermission",
+                    "image": "Digalogue_Media_03.jpg",
+                    "url": "https://www.youtube.com/embed/c9d-3gGv59M"
+                },
+                {
+                    "video": 4, 
+                    "title": "Digalogue - Normal People",
+                    "image": "Digalogue_Media_04.jpg",
+                    "url": "https://www.youtube.com/embed/ER9bWGjcttU"
+                },
+                {
+                    "video": 5, 
+                    "title": "Digalogue (future)",
+                    "image": "Digalogue_Media_05.jpg",
+                    "url": "https://www.youtube.com/embed/Aknwp7hDL-8"
+                },
+                {
+                    "video": 6, 
+                    "title": "Digalogue (dream)",
+                    "image": "Digalogue_Media_06.jpg",
+                    "url": "https://www.youtube.com/embed/KCq3F1TXINQ"
+                }
             ] 
         },
         {

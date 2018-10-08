@@ -165,7 +165,7 @@ class ReleasesFocus extends Component {
                                 {release.relatedReleases.map( r => (
 
                                     <div key={r.id} className="col-md-3">
-                                        <a href={`/Releases/${r.id}`}>
+                                        <a href={`/Releases/${r.link}`}>
                                             <img className="media img-fluid" src={ `/img/releases/${r.image}` } alt={`${r.title}`}  />
                                         </a>
                                     </div>

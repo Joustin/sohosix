@@ -37,7 +37,7 @@
                 }, 
                 {
                     "id": 7,
-                    "name": "getElementByID"
+                    "name": "getElementById"
                 }
        
                ],
@@ -47,21 +47,21 @@
                     "title": "Volna",
                     "image": "SOL013.jpg",
                     "cat": "SOL013",
-                    "link": "something"
+                    "link": 16
                 },
                 {
                     "id": 2, 
                     "title": "Seal Beach",
                     "image": "SOL012.jpg",
                     "cat": "SOL012",
-                    "link": "something"
+                    "link": 15
                 }, 
                 {
                     "id": 3, 
                     "title": "Manhattan",
                     "image": "SOL017.jpg",
                     "cat": "SOL017",
-                    "link": "something"
+                    "link": 20
                 } 
             ],
             "stream": [
@@ -106,21 +106,21 @@
                     "title": "Lextown 303",
                     "image": "SOL009.jpg",
                     "cat": "SOL009",
-                    "link": "something"
+                    "link": 12
                 },
                 {
                     "id": 2, 
                     "title": "Volume 2",
                     "image": "SOL015.jpg",
                     "cat": "SOL015",
-                    "link": "something"
+                    "link": 18
                 }, 
                 {
                     "id": 3, 
                     "title": "Summer XII",
                     "image": "SOL008b.jpg",
                     "cat": "SOL008b",
-                    "link": "something"
+                    "link": 11
                 } 
             ],
             "stream": [
@@ -177,21 +177,21 @@
                     "title": "Acid Abyss",
                     "image": "SOL010.jpg",
                     "cat": "SOL010",
-                    "link": "something"
+                    "link": 13
                 },
                 {
                     "id": 2, 
                     "title": "Random Analog",
                     "image": "SOL004.jpg",
                     "cat": "SOL004",
-                    "link": "something"
+                    "link": 6
                 }, 
                 {
                     "id": 3, 
                     "title": "Lextown 303",
                     "image": "SOL009.jpg",
                     "cat": "SOL009",
-                    "link": "something"
+                    "link": 12
                 } 
             ],
             "stream": [
@@ -256,21 +256,21 @@
                     "title": "Seal Beach",
                     "image": "SOL012.jpg",
                     "cat": "SOL012",
-                    "link": "something"
+                    "link": 15
                 },
                 {
                     "id": 2, 
                     "title": "Squeeze / Squiggle",
                     "image": "SOL016.jpg",
                     "cat": "SOL016",
-                    "link": "something"
+                    "link": 19
                 }, 
                 {
                     "id": 3, 
                     "title": "Lextown 303",
                     "image": "SOL009.jpg",
                     "cat": "SOL009",
-                    "link": "something"
+                    "link": 12
                 } 
             ],
             "stream": [
@@ -323,21 +323,21 @@
                     "title": "Volume 3",
                     "image": "SOL018.jpg",
                     "cat": "SOL018",
-                    "link": "something"
+                    "link": 21
                 },
                 {
                     "id": 2, 
                     "title": "Seal Beach",
                     "image": "SOL012.jpg",
                     "cat": "SOL012",
-                    "link": "something"
+                    "link": 15
                 }, 
                 {
                     "id": 3, 
                     "title": "Manhattan",
                     "image": "SOL017.jpg",
                     "cat": "SOL017",
-                    "link": "something"
+                    "link": 20
                 } 
             ],
             "stream": [
@@ -398,21 +398,21 @@
                     "title": "Volume 3",
                     "image": "SOL018.jpg",
                     "cat": "SOL018",
-                    "link": "something"
+                    "link": 21
                 },
                 {
                     "id": 2, 
                     "title": "Acid Abyss",
                     "image": "SOL010.jpg",
                     "cat": "SOL010",
-                    "link": "something"
+                    "link": 13
                 }, 
                 {
                     "id": 3, 
                     "title": "Death By Din Sync",
                     "image": "SOL005.jpg",
                     "cat": "SOL005",
-                    "link": "something"
+                    "link": 7
                 } 
             ],
             "stream": [
@@ -465,21 +465,21 @@
                     "title": "Fe IX​/​X 171 A",
                     "image": "SOL003x.jpg",
                     "cat": "SOL003x",
-                    "link": "something"
+                    "link": 5
                 },
                 {
                     "id": 2, 
                     "title": "Afterlife",
                     "image": "SOL006.jpg",
                     "cat": "SOL006",
-                    "link": "something"
+                    "link": 8
                 }, 
                 {
                     "id": 3, 
                     "title": "Volna",
                     "image": "SOL013.jpg",
                     "cat": "SOL013",
-                    "link": "something"
+                    "link": 16
                 } 
             ],
             "stream": [
@@ -540,24 +540,24 @@
             "relatedReleases": [
                 {
                     "id": 1, 
-                    "title": "Manhattan",
-                    "image": "SOL017.jpg",
-                    "cat": "SOL017",
-                    "link": "something"
+                    "title": "Normal People",
+                    "image": "SOL020.jpg",
+                    "cat": "SOL020",
+                    "link": 23
                 },
                 {
                     "id": 2, 
                     "title": "Squeeze / Squiggle",
                     "image": "SOL016.jpg",
                     "cat": "SOL016",
-                    "link": "something"
+                    "link": 19
                 }, 
                 {
                     "id": 3, 
                     "title": "Seal Beach",
                     "image": "SOL012.jpg",
                     "cat": "SOL012",
-                    "link": "something"
+                    "link": 15
                 } 
             ],
             "stream": [
@@ -613,21 +613,21 @@
                     "title": "Manhattan",
                     "image": "SOL017.jpg",
                     "cat": "SOL017",
-                    "link": "something"
+                    "link": 20
                 },
                 {
                     "id": 2, 
                     "title": "Squeeze / Squiggle",
                     "image": "SOL016.jpg",
                     "cat": "SOL016",
-                    "link": "something"
+                    "link": 19
                 }, 
                 {
                     "id": 3, 
                     "title": "Volna",
                     "image": "SOL013.jpg",
                     "cat": "SOL013",
-                    "link": "something"
+                    "link": 16
                 } 
             ],
             "stream": [
@@ -691,21 +691,21 @@
                     "title": "Warm Human Antennae",
                     "image": "SOL001.jpg",
                     "cat": "SOL001",
-                    "link": "something"
+                    "link": 2
                 },
                 {
                     "id": 2, 
                     "title": "Summer XI",
                     "image": "SOL008a.jpg",
                     "cat": "SOL008a",
-                    "link": "something"
+                    "link": 10
                 }, 
                 {
                     "id": 3, 
                     "title": "Themes From A Distant Planetoid",
                     "image": "SOL007.jpg",
                     "cat": "SOL007",
-                    "link": "something"
+                    "link": 9
                 } 
             ],
             "stream": [
@@ -722,7 +722,7 @@
         {
             "id": 13,
             "artist": "Rusuden",
-            "title" : "Acid Abysss (Vol 1)",
+            "title" : "Acid Abyss (Vol 1)",
             "cat": "SOL010",
             "date": "04/23/2012",
             "image": "SOL010.jpg",
@@ -761,21 +761,21 @@
                     "title": "Volume 2",
                     "image": "SOL015.jpg",
                     "cat": "SOL015",
-                    "link": "something"
+                    "link": 18
                 },
                 {
                     "id": 2, 
                     "title": "Squeeze / Squiggle",
                     "image": "SOL016.jpg",
                     "cat": "SOL016",
-                    "link": "something"
+                    "link": 19
                 }, 
                 {
                     "id": 3, 
                     "title": "Volume 3",
                     "image": "SOL018.jpg",
                     "cat": "SOL018",
-                    "link": "something"
+                    "link": 21
                 } 
             ],
             "stream": [
@@ -815,21 +815,21 @@
                     "title": "Volume 2",
                     "image": "SOL015.jpg",
                     "cat": "SOL015",
-                    "link": "something"
+                    "link": 18
                 },
                 {
                     "id": 2, 
                     "title": "Squeeze / Squiggle",
                     "image": "SOL016.jpg",
                     "cat": "SOL016",
-                    "link": "something"
+                    "link": 19
                 }, 
                 {
                     "id": 3, 
                     "title": "Summer Seventeen",
                     "image": "SOL019.jpg",
                     "cat": "SOL019",
-                    "link": "something"
+                    "link": 22
                 }  
             ],
             "stream": [
@@ -874,21 +874,21 @@
                     "title": "Summer XI",
                     "image": "SOL008a.jpg",
                     "cat": "SOL008a",
-                    "link": "something"
+                    "link": 10
                 },
                 {
                     "id": 2, 
                     "title": "Afterlife",
                     "image": "SOL006.jpg",
                     "cat": "SOL006",
-                    "link": "something"
+                    "link": 8
                 }, 
                 {
                     "id": 3, 
                     "title": "October",
                     "image": "SOL011.jpg",
                     "cat": "SOL011",
-                    "link": "something"
+                    "link": 14
                 }  
             ],
             "stream": [
@@ -929,21 +929,21 @@
                     "title": "Summer XII",
                     "image": "SOL008b.jpg",
                     "cat": "SOL008b",
-                    "link": "something"
+                    "link": 11
                 },
                 {
                     "id": 2, 
                     "title": "Afterlife",
                     "image": "SOL006.jpg",
                     "cat": "SOL006",
-                    "link": "something"
+                    "link": 8
                 }, 
                 {
                     "id": 3, 
                     "title": "Quiddity",
                     "image": "SOL000.jpg",
                     "cat": "SOL000",
-                    "link": "something"
+                    "link": 1
                 }  
             ],
             "stream": [
@@ -1016,21 +1016,21 @@
                     "title": "October",
                     "image": "SOL011.jpg",
                     "cat": "SOL011",
-                    "link": "something"
+                    "link": 14
                 },
                 {
                     "id": 2, 
                     "title": "Warm Human Antennae",
                     "image": "SOL001.jpg",
                     "cat": "SOL001",
-                    "link": "something"
+                    "link": 2
                 }, 
                 {
                     "id": 3, 
                     "title": "Quiddity",
                     "image": "SOL000.jpg",
                     "cat": "SOL000",
-                    "link": "something"
+                    "link": 1
                 }  
             ],
             "stream": [
@@ -1111,21 +1111,21 @@
                     "title": "Machines II",
                     "image": "SOL014.jpg",
                     "cat": "SOL014",
-                    "link": "something"
+                    "link": 17
                 },
                 {
                     "id": 2, 
                     "title": "Summer XI",
                     "image": "SOL008a.jpg",
                     "cat": "SOL008a",
-                    "link": "something"
+                    "link": 10
                 }, 
                 {
                     "id": 3, 
                     "title": "Summer XII",
                     "image": "SOL008b.jpg",
                     "cat": "SOL008b",
-                    "link": "something"
+                    "link": 11
                 }  
             ],
             "stream": [
@@ -1197,21 +1197,21 @@
                     "title": "Volume 1",
                     "image": "SOL010.jpg",
                     "cat": "SOL010",
-                    "link": "something"
+                    "link": 13
                 },
                 {
                     "id": 2, 
                     "title": "Volume 3",
                     "image": "SOL018.jpg",
                     "cat": "SOL018",
-                    "link": "something"
+                    "link": 21
                 }, 
                 {
                     "id": 3, 
                     "title": "Lextown 303",
                     "image": "SOL009.jpg",
                     "cat": "SOL009",
-                    "link": "something"
+                    "link": 12
                 }  
             ],
             "stream": [
@@ -1291,21 +1291,21 @@
                     "title": "Death By Din Sync",
                     "image": "SOL005.jpg",
                     "cat": "SOL005",
-                    "link": "something"
+                    "link": 7
                 },
                 {
                     "id": 2, 
                     "title": "Themes From A Distant Planetoid",
                     "image": "SOL007.jpg",
                     "cat": "SOL007",
-                    "link": "something"
+                    "link": 9
                 }, 
                 {
                     "id": 3, 
                     "title": "Volume 1",
                     "image": "SOL010.jpg",
                     "cat": "SOL010",
-                    "link": "something"
+                    "link": 13
                 }  
             ],
             "stream": [
@@ -1385,21 +1385,21 @@
                     "title": "Fe IX/X 171 A",
                     "image": "SOL003.jpg",
                     "cat": "SOL003",
-                    "link": "something"
+                    "link": 4
                 },
                 {
                     "id": 2, 
                     "title": "Afterlife",
                     "image": "SOL006.jpg",
                     "cat": "SOL006",
-                    "link": "something"
+                    "link": 8
                 }, 
                 {
                     "id": 3, 
                     "title": "Volume 2",
                     "image": "SOL015.jpg",
                     "cat": "SOL015",
-                    "link": "something"
+                    "link": 18
                 }  
             ],
             "stream": [
@@ -1459,21 +1459,21 @@
                     "title": "Fe IX/X 171 A",
                     "image": "SOL003x.jpg",
                     "cat": "SOL003x",
-                    "link": "something"
+                    "link": 5
                 },
                 {
                     "id": 2, 
                     "title": "Afterlife",
                     "image": "SOL006.jpg",
                     "cat": "SOL006",
-                    "link": "something"
+                    "link": 8
                 }, 
                 {
                     "id": 3, 
                     "title": "Volume 2",
                     "image": "SOL015.jpg",
                     "cat": "SOL015",
-                    "link": "something"
+                    "link": 18
                 }  
             ],
             "stream": [
@@ -1554,21 +1554,21 @@
                     "title": "Volume 1",
                     "image": "SOL010.jpg",
                     "cat": "SOL010",
-                    "link": "something"
+                    "link": 13
                 },
                 {
                     "id": 2, 
                     "title": "Fe IX/X 171 A",
                     "image": "SOL003x.jpg",
                     "cat": "SOL003x",
-                    "link": "something"
+                    "link": 5
                 }, 
                 {
                     "id": 3, 
                     "title": "Afterlife",
                     "image": "SOL006.jpg",
                     "cat": "SOL006",
-                    "link": "something"
+                    "link": 8
                 }  
             ],
             "stream": [
@@ -1653,21 +1653,21 @@
                     "title": "October",
                     "image": "SOL011.jpg",
                     "cat": "SOL011",
-                    "link": "something"
+                    "link": 14
                 },
                 {
                     "id": 2, 
                     "title": "Fe IX/X 171 A",
                     "image": "SOL003x.jpg",
                     "cat": "SOL003x",
-                    "link": "something"
+                    "link": 5
                 }, 
                 {
                     "id": 3, 
                     "title": "Lextown 303",
                     "image": "SOL009.jpg",
                     "cat": "SOL009",
-                    "link": "something"
+                    "link": 12
                 }  
             ],
             "stream": [
@@ -1715,21 +1715,21 @@
                     "title": "October",
                     "image": "SOL011.jpg",
                     "cat": "SOL011 ",
-                    "link": "something"
+                    "link": 14
                 },
                 {
                     "id": 2, 
                     "title": "Warm Human Antennae",
                     "image": "SOL001.jpg",
                     "cat": "SOL001",
-                    "link": "something"
+                    "link": 2
                 }, 
                 {
                     "id": 3, 
                     "title": "Themes From A Distant Planetoid",
                     "image": "SOL007.jpg",
                     "cat": "SOL007",
-                    "link": "something"
+                    "link": 9
                 }  
             ],
             "stream": [
