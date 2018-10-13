@@ -4,6 +4,7 @@ $darkGrey: #545454;
 $darkerGrey: #343434;
 $medGrey: #838383;
 $lightGrey: #D1D1D1;
+$hoverGrey: #b9b9b9;
 $toxicGreen: #99ff0e;
 $sectionHeader: #686868;
 
@@ -43,12 +44,36 @@ $sectionSize: 1.2rem;
 	}	
 }
 
+// @mixin link1 {
+// 	color: black;
+
+// 	&:hover {
+// 		text-decoration: none;
+// 	}
+// }
 
 /****  EXTENDS  ****/
 
 %artist-card {
 	padding: 10px;
 	color: black;
+}
+
+%link1 {
+	color: black;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	div.card, div.whiteBox {
+		@include transition(.5s ease-in-out);
+
+		&:hover {
+			background-color: $hoverGrey;
+		}
+	}
+
 }
 
 /****  MAIN  ****/
@@ -62,6 +87,11 @@ body {
 body.white {
 	background-color: #fff;
 	@include transition(1s ease-in-out);
+}
+
+.sealBeachForm {
+	width: 600px;
+	height: auto;
 }
 
 // #content {
@@ -79,6 +109,7 @@ body.white {
 	}
 	
 }
+
 
 
 /****  NAVBAR  ****/
@@ -253,6 +284,10 @@ ul.navbar-nav a.active, nav a.active {
 #shout-out {
 	// background-color: #d1d1d1;
 
+	a {
+		@extend %link1;		
+	}
+
 	.featured-card p.card-text {
 		font-size: 1.3rem;
 	}
@@ -262,6 +297,7 @@ ul.navbar-nav a.active, nav a.active {
 		font-weight: 600;
 		text-align: center;
 	}	
+
 
 }
 
@@ -287,6 +323,10 @@ ul.navbar-nav a.active, nav a.active {
 
 
 #artists {
+
+	a {
+		@extend %link1;
+	}
 
 	.row {
 		padding-bottom: 3rem;
@@ -461,22 +501,7 @@ ul.navbar-nav a.active, nav a.active {
 #releases {
 
 	a {
-		text-decoration: none;
-
-		&:hover {
-			color: #000;
-			text-decoration: none;
-			@include transition(.4s ease-in-out);
-		}
-	}
-
-	a div p {
-		color: #000;
-
-		&:hover {
-			color: #fff;
-			@include transition(.4s ease-in-out);
-		}
+		@extend %link1;
 	}
 
 	.card-body {
@@ -582,17 +607,51 @@ ul.navbar-nav a.active, nav a.active {
 
 	}
 
-
-
 }
 
+#releaseFocusBottom { 
 
+	img.media {
+		padding-bottom: 40px;
+	}
+
+}	
 
 /*****  EXTRAS  ******/
 
 
 .box-shadow {
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.loading {
+	height: 900px;
+	width: 100%;
+
+	div {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 200px;
+		border: 8px solid $lightGrey;
+		border-radius: 50%;
+		border-top: 8px solid $toxicGreen;
+		width: 50px;
+		height: 50px;
+		-webkit-animation: spin .5s linear infinite;
+		animation: spin .5s linear infinite;
+	}
+
+	@-webkit-keyframes spin {
+		0% { -webkit-transform: rotate(0deg); }
+		100% { -webkit-transform: rotate(360deg); }
+	}
+	  
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+
 }
 
 
@@ -641,4 +700,14 @@ ul.navbar-nav a.active, nav a.active {
     /*-ms-animation-name: fadeIn;*/
     animation-name: fadeIn;
     
+}
+
+.pageIn {
+	animation-duration: 1s;
+	animation-name: pageIn;
+}
+
+@keyframes pageIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }

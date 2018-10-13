@@ -18,6 +18,7 @@ class ArtistsFocus extends Component {
                 selectedReleases: [], 
                 media: []
             },
+            loading: true,
             // open: false 
             activeModal: null 
         };
@@ -57,7 +58,8 @@ class ArtistsFocus extends Component {
             .then(res => {
                 const artist = res.data;
                 this.setState({
-                    artist
+                    artist,
+                    loading: false
                 });
             });
 
@@ -75,10 +77,13 @@ class ArtistsFocus extends Component {
         const { artist } = this.state;
         // const { open } = this.state;
 
+        if (this.state.loading) {
 
-        // console.log("Hello " + artist.featuredTracks);
+            return <div className="loading">
+                        <div></div>
+                    </div>
 
-        if (artist.name === '') {
+        } else if (artist.name === '') {
 
             return <div>Sorry, there's a void.  No artist exists.</div>
 
@@ -86,7 +91,7 @@ class ArtistsFocus extends Component {
 
 
             return (
-                <div>
+                <div className="pageIn">
 
                 <section id="artistFocusTop">
                     <div className="section-content">
@@ -107,7 +112,9 @@ class ArtistsFocus extends Component {
                                             {artist.selectedReleases.map( r => (
 
                                                 <div key={r.id} className="col-sm-4">
-                                                    <img className="img-fluid" src={ `/img/releases/${r.image}` } alt={`${r.title}`}  />
+                                                    <a href={`/Releases/${r.link}`}>
+                                                        <img className="img-fluid" src={ `/img/releases/${r.image}` } alt={`${r.title}`}  />
+                                                    </a>
                                                 </div>
 
                                             ))}

@@ -1,6 +1,17 @@
 /*****  VARS  ****/
 /****  MIXINS  ****/
 /****  EXTENDS  ****/
+#shout-out a, #artists a, #releases a {
+  color: black; }
+  #shout-out a:hover, #artists a:hover, #releases a:hover {
+    text-decoration: none; }
+  #shout-out a div.card, #artists a div.card, #releases a div.card, #shout-out a div.whiteBox, #artists a div.whiteBox, #releases a div.whiteBox {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
+    #shout-out a div.card:hover, #artists a div.card:hover, #releases a div.card:hover, #shout-out a div.whiteBox:hover, #artists a div.whiteBox:hover, #releases a div.whiteBox:hover {
+      background-color: #b9b9b9; }
+
 /****  MAIN  ****/
 body {
   background-color: #D1D1D1;
@@ -13,6 +24,10 @@ body.white {
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
   transition: 1s ease-in-out; }
+
+.sealBeachForm {
+  width: 600px;
+  height: auto; }
 
 .section-content {
   padding: 2.5rem 0; }
@@ -230,23 +245,6 @@ ul.navbar-nav a.active, nav a.active {
   padding-bottom: 40px; }
 
 /*****  RELEASES  ******/
-#releases a {
-  text-decoration: none; }
-  #releases a:hover {
-    color: #000;
-    text-decoration: none;
-    -webkit-transition: 0.4s ease-in-out;
-    -moz-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out; }
-
-#releases a div p {
-  color: #000; }
-  #releases a div p:hover {
-    color: #fff;
-    -webkit-transition: 0.4s ease-in-out;
-    -moz-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out; }
-
 #releases .card-body {
   padding: .75rem; }
   #releases .card-body p.card-title {
@@ -319,9 +317,40 @@ ul.navbar-nav a.active, nav a.active {
       margin: 0px;
       padding: 0px 0px 2px 0px; }
 
+#releaseFocusBottom img.media {
+  padding-bottom: 40px; }
+
 /*****  EXTRAS  ******/
 .box-shadow {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); }
+
+.loading {
+  height: 900px;
+  width: 100%; }
+  .loading div {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border: 8px solid #D1D1D1;
+    border-radius: 50%;
+    border-top: 8px solid #99ff0e;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin .5s linear infinite;
+    animation: spin .5s linear infinite; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 /****** OVERRIDES *****/
 .navbar-collapse {
@@ -357,3 +386,13 @@ ul.navbar-nav a.active, nav a.active {
 .animated.fadeIn {
   /*-ms-animation-name: fadeIn;*/
   animation-name: fadeIn; }
+
+.pageIn {
+  animation-duration: 1s;
+  animation-name: pageIn; }
+
+@keyframes pageIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

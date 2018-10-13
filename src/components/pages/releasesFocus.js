@@ -16,7 +16,8 @@ class ReleasesFocus extends Component {
                 title: '',
                 tracks: [],
                 relatedReleases: []
-            }
+            }, 
+            loading: true
         };
 
     }
@@ -31,8 +32,9 @@ class ReleasesFocus extends Component {
             .then(res => {
                 const release = res.data;
                 this.setState({
-                    release
-                });
+                    release, 
+                    loading: false
+                })
             });
 
         document.body.classList.add(Comp_WhiteBG);    
@@ -49,14 +51,21 @@ class ReleasesFocus extends Component {
 
         const { release } = this.state;
 
-        if (release.artist === '') {
+        if (this.state.loading) {
+
+            return <div className="loading">
+                        <div></div>
+                    </div>
+
+        } else if (release.artist === '') { 
 
             return <div>Sorry, there's a void.  No release exists.</div>
+        
+        } else {
 
-        } else { 
 
             return (
-                <div>
+                <div className="pageIn">
 
 
                 <section id="releaseFocusTop">

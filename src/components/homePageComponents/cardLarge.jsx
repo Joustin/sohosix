@@ -8,14 +8,14 @@ class CardLarge extends Component {
     render() {
         
         return (
-            <div className="card mb-5 featured-card">
-                <Link to='/ReleasesFocus' className=" ">
+            <Link to={'/Releases/' + this.props.link} className=" ">
+                <div className="card mb-5 featured-card">
                     <img className="card-img-top" src={ '/img/releases/' + this.props.img } alt={this.props.title} />
-                </Link>
-                <div className="card-body">
-                    <p className="card-text">{this.props.title}</p>
+                    <div className="card-body">
+                        <p className="card-text">{this.props.title}</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         );
     }
 }

@@ -10,7 +10,8 @@ import {
 class ReleasesMain extends Component {
 
     state = {
-        releases: []
+        releases: [], 
+        loading: true
     } 
 
     componentDidMount() {
@@ -20,7 +21,8 @@ class ReleasesMain extends Component {
             .then(res => {
                 const releases = res.data;
                 this.setState({
-                    releases
+                    releases,
+                    loading: false
                 });
             });
     }
@@ -28,44 +30,53 @@ class ReleasesMain extends Component {
 
   render() {
 
-    return (
-        <div>
 
-            <section id="releases">
-                <div className="section-content">
-                    <div className="container">
+    if (this.state.loading) {
 
-                        <div className="row">
+        return <div className="loading">
+                    <div></div>
+                </div>
+    
+    } else {    
 
-                        {this.state.releases.map( p => ( 
+        return (
+            <div>
 
-                            <div key={p.id} className="col-md-3">
+                <section id="releases">
+                    <div className="section-content">
+                        <div className="container">
 
-                                <Link to={`/Releases/${p.id}`}>
-                                    <div className="card mb-4 fadeInView">
-                                        <img className="card-img-top" src={ `/img/releases/${p.image}` } alt={`${p.title}`} />
-                                        <div className="card-body">
-                                            <p className="card-title">{p.artist}</p>
-                                            <p className="card-text">{p.title}</p>
+                            <div className="row">
+
+                            {this.state.releases.map( p => ( 
+
+                                <div key={p.id} className="col-md-3">
+
+                                    <Link to={`/Releases/${p.id}`}>
+                                        <div className="card mb-4 fadeInView">
+                                            <img className="card-img-top" src={ `/img/releases/${p.image}` } alt={`${p.title}`} />
+                                            <div className="card-body">
+                                                <p className="card-title">{p.artist}</p>
+                                                <p className="card-text">{p.title}</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Link>
+                                    </Link>
+
+                                </div>
+
+                            ))}
+
+
 
                             </div>
 
-                        ))}
-
-
-
                         </div>
-
                     </div>
-                </div>
-            </section>
-            
-        </div>
-    );
-
+                </section>
+                
+            </div>
+        );
+    }
   }
 }
 

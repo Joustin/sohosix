@@ -1,6 +1,125 @@
 {
     "Releases": [
         {
+            "id": 24,
+            "artist": "Rusuden",
+            "title" : "A/B (expanded)",
+            "cat": "BCT003 / SOL021",
+            "date": "12/01/2017",
+            "image": "SOL021.jpg",
+            "buy": "https://music.rusuden.com/album/a-b-expanded",
+            "text": "All music & photos by Justin Morgan. Tracks recorded at home studios in Delaware & Pennsylvania USA from 2014 ~ 2017. Limited Edition cassette originally released on Body Control Records (BCT003). Updated 2018 digital edition includes 7 extra tracks from the same recording sessions. ",
+            "style": "Techno, IDM, Braindance, Leftfield",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "OoooWeeeOoooo"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Juno Pulse Octa"
+                }, 
+                {
+                    "id": 3,
+                    "name": "Fright Night"
+                }, 
+                {
+                    "id": 4,
+                    "name": "AFX's Dog"
+                }, 
+                {
+                    "id": 5,
+                    "name": "Berzerk Track"
+                }, 
+                {
+                    "id": 6,
+                    "name": "0319-0524"
+                }, 
+                {
+                    "id": 7,
+                    "name": "Something Dark"
+                }, 
+                {
+                    "id": 8,
+                    "name": "July 14th"
+                }, 
+                {
+                    "id": 9,
+                    "name": "Terraforming I"
+                }, 
+                {
+                    "id": 10,
+                    "name": "Terraforming II"
+                }, 
+                {
+                    "id": 11,
+                    "name": "Ambient Synth Trip"
+                }, 
+                {
+                    "id": 12,
+                    "name": "Pulse+BS Seq"
+                }, 
+                {
+                    "id": 13,
+                    "name": "Sludge Acid"
+                }, 
+                {
+                    "id": 14,
+                    "name": "Acid Jawn"
+                }, 
+                {
+                    "id": 15,
+                    "name": "SH-2 Bee Video"
+                }, 
+                {
+                    "id": 16,
+                    "name": "Berzerk Track (Evil Otto)"
+                }, 
+                {
+                    "id": 17,
+                    "name": "Rave.js"
+                }, 
+                {
+                    "id": 18,
+                    "name": "Reversed Snow"
+                }
+       
+               ],
+            "relatedReleases": [
+                {
+                    "id": 1, 
+                    "title": "Fe IX/X 171 A",
+                    "image": "SOL003x.jpg",
+                    "cat": "SOL003x",
+                    "link": 5
+                },
+                {
+                    "id": 2, 
+                    "title": "Lextown 303",
+                    "image": "SOL009.jpg",
+                    "cat": "SOL009",
+                    "link": 12
+                }, 
+                {
+                    "id": 3, 
+                    "title": "Summer Seventeen",
+                    "image": "SOL019.jpg",
+                    "cat": "SOL019",
+                    "link": 22
+                } 
+            ],
+            "stream": [
+                {
+                    "albumCode": "919510064",
+                    "title": "A/B",
+                    "artist": "Rusuden",
+                    "height": "472px",
+                    "link": "http://music.rusuden.com/album/a-b-expanded"
+                }
+            ]
+       
+        },  
+        {
             "id": 23,
             "artist": "Digalogue",
             "title" : "Normal People",

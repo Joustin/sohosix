@@ -10,7 +10,8 @@ class ArtistsMain extends Component {
 
 
     state = {
-        artists: []
+        artists: [],
+        loading: true
     } 
 
     componentDidMount() {
@@ -20,58 +21,69 @@ class ArtistsMain extends Component {
             .then(res => {
                 const artists = res.data;
                 this.setState({
-                    artists
+                    artists,
+                    loading: false
                 });
             });
     }
 
   render() {
-    return (
-        <div>
 
-            <section id="artists">
-                <div className="section-content">
-                    <div className="container">
+    if (this.state.loading) {
 
-                            {this.state.artists.map( p => ( 
-
-                                <div key={p.id} className="row">
-
-                                    <div className="col-md-12">
-                                        <Link to={`/Artists/${p.id}`}>
-                                            <div className="whiteBox">
-                                                <div className="img-box">
-                                                    <img className="img-fluid" src={ `/img/artists/${p.image}` } alt={`${p.name}`} />
-                                                </div>
-                                                <div className="aboutArtist">
-                                                    <p className="title">{p.name}</p>
-                                                    <p>{p.text}</p>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-
-                                </div>
-                            
-                            
-                            ))}
-
-                    </div>
+        return <div className="loading">
+                    <div></div>
                 </div>
-            </section>
+    
+    } else { 
 
-                {/* <ul>
+        return (
+            <div>
 
-                    {this.state.artists.map( p => (
-                        <li key={p.id}>
-                            <Link to={`/Artists/${p.id}`}>{p.name}</Link>                       
-                        </li>
-                    ))}
+                <section id="artists">
+                    <div className="section-content">
+                        <div className="container">
 
-                </ul> */}
+                                {this.state.artists.map( p => ( 
 
-        </div>
-    );
+                                    <div key={p.id} className="row">
+
+                                        <div className="col-md-12">
+                                            <Link to={`/Artists/${p.id}`}>
+                                                <div className="whiteBox">
+                                                    <div className="img-box">
+                                                        <img className="img-fluid" src={ `/img/artists/${p.image}` } alt={`${p.name}`} />
+                                                    </div>
+                                                    <div className="aboutArtist">
+                                                        <p className="title">{p.name}</p>
+                                                        <p>{p.text}</p>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+
+                                    </div>
+                                
+                                
+                                ))}
+
+                        </div>
+                    </div>
+                </section>
+
+                    {/* <ul>
+
+                        {this.state.artists.map( p => (
+                            <li key={p.id}>
+                                <Link to={`/Artists/${p.id}`}>{p.name}</Link>                       
+                            </li>
+                        ))}
+
+                    </ul> */}
+
+            </div>
+        );
+    }
   }
 }
 
