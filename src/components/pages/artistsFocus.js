@@ -54,11 +54,14 @@ class ArtistsFocus extends Component {
         const { match: { params } } = this.props;
 
         axios
-            .get(`http://localhost:3001/Artists/${params.id}`)
+            //.get(`http://localhost:3001/Artists/${params.id}`)
+            //.get(`http://localhost:5000/Artists/${params.id}`)
+            .get(`https://soho-six-api.herokuapp.com/Artists/${params.id}`)
             .then(res => {
                 const artist = res.data;
+                //console.log(artist);
                 this.setState({
-                    artist,
+                    artist: artist,
                     loading: false
                 });
             });
@@ -192,9 +195,6 @@ class ArtistsFocus extends Component {
                                     </div>
 
                                 ))}
-
-
-
 
                             </div>
 

@@ -28,11 +28,13 @@ class ReleasesFocus extends Component {
         const { match: { params } } = this.props;
 
         axios
-            .get(`http://localhost:3002/Releases/${params.id}`)
+            //.get(`http://localhost:3002/Releases/${params.id}`)
+            //.get(`http://localhost:5000/Releases/${params.id}`)
+            .get(`https://soho-six-api.herokuapp.com/Releases/${params.id}`)
             .then(res => {
                 const release = res.data;
                 this.setState({
-                    release, 
+                    release: release, 
                     loading: false
                 })
             });

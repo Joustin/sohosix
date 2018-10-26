@@ -504,6 +504,15 @@ ul.navbar-nav a.active, nav a.active {
 		@extend %link1;
 	}
 
+	img[src*="SOL007"] ~ div p.card-text, 
+	img[src*="SOL004"] ~ div p.card-text {
+		font-size: .9rem;
+	}
+
+	.card {
+		// height: 336px;
+	}
+
 	.card-body {
 		padding: .75rem;
 

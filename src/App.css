@@ -245,6 +245,10 @@ ul.navbar-nav a.active, nav a.active {
   padding-bottom: 40px; }
 
 /*****  RELEASES  ******/
+#releases img[src*="SOL007"] ~ div p.card-text,
+#releases img[src*="SOL004"] ~ div p.card-text {
+  font-size: .9rem; }
+
 #releases .card-body {
   padding: .75rem; }
   #releases .card-body p.card-title {

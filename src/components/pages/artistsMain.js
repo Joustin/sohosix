@@ -8,7 +8,6 @@ import {
 
 class ArtistsMain extends Component {
 
-
     state = {
         artists: [],
         loading: true
@@ -16,14 +15,22 @@ class ArtistsMain extends Component {
 
     componentDidMount() {
 
+        // node env file... !!
+
+        
         axios
-            .get('http://localhost:3001/Artists/')
+            //.get('http://localhost:3001/Artists/')
+            //.get('http://localhost:5000/Artists/')
+            .get('https://soho-six-api.herokuapp.com/Artists/')
             .then(res => {
                 const artists = res.data;
+                //console.log(artists);
                 this.setState({
-                    artists,
+                    artists: artists.Artists,
                     loading: false
                 });
+            }).catch((error) => {
+                console.error(error);
             });
     }
 

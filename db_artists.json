@@ -10,52 +10,45 @@
             "featuredTracks": [
                 {
                     "track": 1, 
-                    "title": "Robot Butler",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=2731487020/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Seal Beach"
+                    "title": "Normal People",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=2544662741/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/normal-people",
+                    "albumTitle": "Normal People"
                 },
                 {
                     "track": 2, 
-                    "title": "Neon Glow",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=550366697/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Seal Beach"
+                    "title": "J-UZMIR",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=2453870538/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/normal-people",
+                    "albumTitle": "Normal People"
                 },
                 {
                     "track": 3, 
-                    "title": "Madison Winter B/W",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=2618353492/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Manhattan"
+                    "title": "Break The Stereo",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=1226633224/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/normal-people",
+                    "albumTitle": "Normal People"
                 },
                 {
                     "track": 4, 
-                    "title": "Encyclical Blood Moon",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=3740075141/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Manhattan"
+                    "title": "The Document",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=3297826113/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/normal-people",
+                    "albumTitle": "Normal People"
                 },
                 {
                     "track": 5, 
-                    "title": "Ray Bay",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=1626595246/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Seal Beach"
+                    "title": "getElementById",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=1210975386/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/normal-people",
+                    "albumTitle": "Normal People"
                 },
                 {
                     "track": 6, 
-                    "title": "Squiggle",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1244650774/size=small/bgcol=ffffff/linkcol=333333/track=966306371/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Squeeze / Squiggle"
-                },
-                {
-                    "track": 7, 
-                    "title": "Hot Ngam",
-                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=33400534/transparent=true/",
-                    "albumLink": "http://acean.bandcamp.com/album/seal-beach",
-                    "albumTitle": "Manhattan"
+                    "title": "LIGO",
+                    "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=4627843/transparent=true/",
+                    "albumLink": "http://music.rusuden.com/album/normal-people",
+                    "albumTitle": "Normal People"
                 }
             ],
             "selectedReleases": [
