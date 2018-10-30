@@ -37,7 +37,8 @@ class ReleasesMain extends Component {
     if (this.state.loading) {
 
         return <div className="loading">
-                    <div></div>
+                    <div className="action"></div>
+                    <div className="animated fadeInOut text">API WAKING UP</div>
                 </div>
     
     } else {    

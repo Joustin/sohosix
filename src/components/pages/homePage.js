@@ -9,6 +9,7 @@ class HomePage extends Component {
 
     state = {
         open: false,
+        loading: true
       };
      
     onOpenModal = () => {
@@ -20,9 +21,26 @@ class HomePage extends Component {
     };
 
 
+    componentDidMount() {
+
+        this.setState({
+            loading: false
+        });
+    }    
+
+
+
   render() {
 
     const { open } = this.state;
+
+    if (this.state.loading) {
+
+        return <div className="loading">
+                    <div></div>
+                </div>
+    
+    } else { 
 
     return (
         <div>
@@ -85,7 +103,7 @@ class HomePage extends Component {
                                         Are you still looking for Seal Beach on vinyl?  Well, we may end up doing a limited edition repress 
                                         if we see there are enough people who want one!
                                         <br />
-                                        <a href="mailto:hellohuman@sohosix.com" target="_blank">Send us an email</a> and let us know. 
+                                        <a href="mailto:hellohuman@sohosix.com">Send us an email</a> and let us know. 
                                         If we get enough interest... we'll be in contact.
                                     </div>
                                 </div>
@@ -100,13 +118,13 @@ class HomePage extends Component {
         </section>
 
 
-        <section id="studio-talk">
+        {/* <section id="studio-talk">
             <div className="section-content fadeInView">
                 <div className="container">
                     <div className="row justify-content-end">
                         <div className="col-md-6">
                             <div className="studio-text">
-                                <h3 className="d-flex">Studio Talk {/*<i className="fas fa-angle-double-right fa-2x" style="color: #f232d1; padding-left: 10px;"></i>*/}</h3>
+                                <h3 className="d-flex">Studio Talk <i className="fas fa-angle-double-right fa-2x" ></i></h3>
                                 <p className="lead">We invited Ben from Body Control Records to sit down and interview ACEAN recently.about music style, gear and studio perferences.   Etctetcttcct</p>
                                 
                             </div>
@@ -114,7 +132,7 @@ class HomePage extends Component {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
 
 
         {/* <section id="radio">
@@ -136,6 +154,9 @@ class HomePage extends Component {
 
         </div>
     );
+
+    }
+
   }
 }
 

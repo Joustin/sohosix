@@ -36,6 +36,9 @@ body.white {
   .section-content {
     padding: 1.5rem 0; } }
 
+.policyModal {
+  font-size: .8rem; }
+
 /****  NAVBAR  ****/
 .nav-padding {
   /*min-height: 75rem;*/
@@ -331,7 +334,7 @@ ul.navbar-nav a.active, nav a.active {
 .loading {
   height: 900px;
   width: 100%; }
-  .loading div {
+  .loading div.action {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -343,6 +346,15 @@ ul.navbar-nav a.active, nav a.active {
     height: 50px;
     -webkit-animation: spin .5s linear infinite;
     animation: spin .5s linear infinite; }
+  .loading div.text {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: .8rem;
+    width: 100px;
+    color: #838383;
+    animation: fadeInOut 6s infinite; }
 
 @-webkit-keyframes spin {
   0% {
@@ -388,6 +400,18 @@ ul.navbar-nav a.active, nav a.active {
     opacity: 1; } }
 
 .animated.fadeIn {
+  /*-ms-animation-name: fadeIn;*/
+  animation-name: fadeIn; }
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.animated.fadeInOut {
   /*-ms-animation-name: fadeIn;*/
   animation-name: fadeIn; }
 

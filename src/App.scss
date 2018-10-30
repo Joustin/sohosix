@@ -110,7 +110,9 @@ body.white {
 	
 }
 
-
+.policyModal {
+	font-size: .8rem;
+}
 
 /****  NAVBAR  ****/
 
@@ -637,7 +639,7 @@ ul.navbar-nav a.active, nav a.active {
 	height: 900px;
 	width: 100%;
 
-	div {
+	div.action {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
@@ -649,6 +651,17 @@ ul.navbar-nav a.active, nav a.active {
 		height: 50px;
 		-webkit-animation: spin .5s linear infinite;
 		animation: spin .5s linear infinite;
+	}
+
+	div.text {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		font-size: .8rem;
+		width: 100px;
+		color: $medGrey;
+		animation: fadeInOut 6s infinite;
 	}
 
 	@-webkit-keyframes spin {
@@ -706,6 +719,18 @@ ul.navbar-nav a.active, nav a.active {
 }
 
 .animated.fadeIn {
+    /*-ms-animation-name: fadeIn;*/
+    animation-name: fadeIn;
+    
+}
+
+@keyframes fadeInOut {
+    0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+.animated.fadeInOut {
     /*-ms-animation-name: fadeIn;*/
     animation-name: fadeIn;
     

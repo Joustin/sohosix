@@ -39,7 +39,13 @@ class ReleasesFocus extends Component {
                 })
             });
 
-        document.body.classList.add(Comp_WhiteBG);    
+        document.body.classList.add(Comp_WhiteBG);
+        
+        window.scroll({
+            top: 0,
+            behavior: "smooth"
+        }); 
+        
     }
 
     componentWillUnmount() {
@@ -56,7 +62,8 @@ class ReleasesFocus extends Component {
         if (this.state.loading) {
 
             return <div className="loading">
-                        <div></div>
+                    <div className="action"></div>
+                    <div className="animated fadeInOut text">API WAKING UP</div>
                     </div>
 
         } else if (release.artist === '') { 
