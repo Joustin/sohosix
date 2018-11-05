@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 import axios from 'axios';
 
+import {
+    Link,
+    withRouter
+  } from 'react-router-dom';
 
 const Comp_WhiteBG = "white";
 
@@ -12,6 +16,7 @@ class ReleasesFocus extends Component {
 
         this.state = { 
             release: {
+                id: '',
                 artist: '',
                 title: '',
                 tracks: [],
@@ -52,7 +57,46 @@ class ReleasesFocus extends Component {
         document.body.classList.remove(Comp_WhiteBG);
     }
 
+    // componentWillReceiveProps(nextProps) {
+    //     this.props = nextProps;
+    // } 
 
+
+    // static getDerivedStateFromProps(nextProps, prevState) {
+    //     if (nextProps.id !== prevState.id) {
+    //       return ({ id: nextProps.id }) // <- this is setState equivalent
+    //     }
+    // }
+
+    componentDidUpdate(prevProps) {
+
+        //console.log(this.props.match.params.id);
+
+        if (this.props.match.params.id !== prevProps.match.params.id) {
+
+            const { match: { params } } = this.props;
+
+            axios
+
+                .get(`https://soho-six-api.herokuapp.com/Releases/${params.id}`)
+                .then(res => {
+                    const release = res.data;
+                    this.setState({
+                        release: release, 
+                        loading: false
+                    })
+                });
+    
+            //document.body.classList.add(Comp_WhiteBG);
+            
+            window.scroll({
+                top: 0,
+                behavior: "smooth"
+            }); 
+
+        }
+
+    }    
 
 
     render() {
@@ -183,9 +227,9 @@ class ReleasesFocus extends Component {
                                 {release.relatedReleases.map( r => (
 
                                     <div key={r.id} className="col-md-3">
-                                        <a href={`/Releases/${r.link}`}>
+                                        <Link to={`/Releases/${r.link}`}>
                                             <img className="media img-fluid" src={ `/img/releases/${r.image}` } alt={`${r.title}`}  />
-                                        </a>
+                                        </Link>
                                     </div>
 
                                 ))}
@@ -203,4 +247,4 @@ class ReleasesFocus extends Component {
     }
 }
 
-export default ReleasesFocus;
+export default withRouter(ReleasesFocus);

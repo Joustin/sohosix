@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Modal from 'react-responsive-modal';
 
+import {
+    Link
+  } from 'react-router-dom';
+
 const Comp_WhiteBG = "white";
 
 class ArtistsFocus extends Component {
@@ -121,9 +125,9 @@ class ArtistsFocus extends Component {
                                             {artist.selectedReleases.map( r => (
 
                                                 <div key={r.id} className="col-sm-4">
-                                                    <a href={`/Releases/${r.link}`}>
+                                                    <Link to={`/Releases/${r.link}`}>
                                                         <img className="img-fluid" src={ `/img/releases/${r.image}` } alt={`${r.title}`}  />
-                                                    </a>
+                                                    </Link>
                                                 </div>
 
                                             ))}

@@ -34,7 +34,7 @@ class App extends Component {
               <Route exact path='/Artists' component={ArtistsMain} />
               <Route path='/Artists/:id' component={ArtistsFocus} />
               <Route exact path='/Releases' component={ReleasesMain} />
-              <Route path='/Releases/:id' component={ReleasesFocus} />
+              <Route exact path='/Releases/:id' component={ReleasesFocus} />
             </Switch>
           </main>
 
