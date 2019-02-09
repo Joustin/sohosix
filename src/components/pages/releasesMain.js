@@ -16,10 +16,10 @@ class ReleasesMain extends Component {
 
     componentDidMount() {
 
+        const apiEndpoint = process.env.REACT_APP_MY_API;
+
         axios
-            //.get('http://localhost:3002/Releases/')
-            //.get('http://localhost:5000/Releases/')
-            .get('https://soho-six-api.herokuapp.com/Releases/')
+            .get(`${apiEndpoint}/Releases/`)
             .then(res => {
                 const releases = res.data;
                 this.setState({

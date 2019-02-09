@@ -15,13 +15,10 @@ class ArtistsMain extends Component {
 
     componentDidMount() {
 
-        // node env file... !!
-
+        const apiEndpoint = process.env.REACT_APP_MY_API;
         
         axios
-            //.get('http://localhost:3001/Artists/')
-            //.get('http://localhost:5000/Artists/')
-            .get('https://soho-six-api.herokuapp.com/Artists/')
+            .get(`${apiEndpoint}/Artists/`)
             .then(res => {
                 const artists = res.data;
                 //console.log(artists);

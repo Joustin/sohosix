@@ -57,7 +57,6 @@ class HomePage extends Component {
                         </div>
 
                         <div className="col-md-6">
-                            {/* <CardLarge img="SOL017.jpg" title="ACEAN • Manhattan" link="20" /> */}
                             <CardLarge img="SOL020.jpg" title="Digalogue • Normal People" link="23" />
                         </div>
 

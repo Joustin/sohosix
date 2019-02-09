@@ -57,10 +57,10 @@ class ArtistsFocus extends Component {
 
         const { match: { params } } = this.props;
 
+        const apiEndpoint = process.env.REACT_APP_MY_API;
+
         axios
-            //.get(`http://localhost:3001/Artists/${params.id}`)
-            //.get(`http://localhost:5000/Artists/${params.id}`)
-            .get(`https://soho-six-api.herokuapp.com/Artists/${params.id}`)
+            .get(`${apiEndpoint}/Artists/${params.id}`)
             .then(res => {
                 const artist = res.data;
                 //console.log(artist);
@@ -76,6 +76,9 @@ class ArtistsFocus extends Component {
             top: 0,
             behavior: "smooth"
         }); 
+
+        
+
     }
 
     componentWillUnmount() {
@@ -200,7 +203,7 @@ class ArtistsFocus extends Component {
                                         <Modal open={this.state.activeModal === index} onClose={this.hideModal} center>
                                             <h4>{m.title}</h4>
                                             <iframe title={`${m.title}`} width="560" height="315" src={`${m.url}`} 
-                                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                                frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                                         </Modal>
                                     </div>
 

@@ -9,6 +9,8 @@ import {
 
 const Comp_WhiteBG = "white";
 
+const apiEndpoint = process.env.REACT_APP_MY_API;
+
 class ReleasesFocus extends Component {
 
     constructor(props) {
@@ -33,9 +35,7 @@ class ReleasesFocus extends Component {
         const { match: { params } } = this.props;
 
         axios
-            //.get(`http://localhost:3002/Releases/${params.id}`)
-            //.get(`http://localhost:5000/Releases/${params.id}`)
-            .get(`https://soho-six-api.herokuapp.com/Releases/${params.id}`)
+            .get(`${apiEndpoint}/Releases/${params.id}`)
             .then(res => {
                 const release = res.data;
                 this.setState({
@@ -70,15 +70,13 @@ class ReleasesFocus extends Component {
 
     componentDidUpdate(prevProps) {
 
-        //console.log(this.props.match.params.id);
-
         if (this.props.match.params.id !== prevProps.match.params.id) {
 
             const { match: { params } } = this.props;
 
             axios
 
-                .get(`https://soho-six-api.herokuapp.com/Releases/${params.id}`)
+                .get(`${apiEndpoint}/Releases/${params.id}`)
                 .then(res => {
                     const release = res.data;
                     this.setState({
@@ -87,7 +85,6 @@ class ReleasesFocus extends Component {
                     })
                 });
     
-            //document.body.classList.add(Comp_WhiteBG);
             
             window.scroll({
                 top: 0,

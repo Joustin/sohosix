@@ -28,13 +28,13 @@ class Footer extends Component {
               <div className="row">
                   <div className="col-6">
                       <p><a href="#" onClick={this.onOpenModal} >Privacy Policy</a></p>
-                      <p>&copy; 2018 Soho Six Records</p>
+                      <p>&copy; 2019 Soho Six Records</p>
                   </div>
                   <div className="col-6 social-icons">
                       <ul>
-                          <li><a href="http://sohosix.bandcamp.com/" target="_blank"><img className="icon" src={ '/img/icons/bandcamp.svg' } alt="bandcamp" /></a></li>
-                          <li><a href="https://twitter.com/Rusuden" target="_blank"><img className="icon" src={ '/img/icons/twitter.svg' } alt="twitter" /></a></li>
-                          <li><a href="mailto:hellohuman@sohosix.com" target="_blank"><img className="icon" src={ '/img/icons/email.svg' } alt="email" /></a></li>
+                          <li><a href="http://sohosix.bandcamp.com/" target="_blank" rel="noopener noreferrer"><img className="icon" src={ '/img/icons/bandcamp.svg' } alt="bandcamp" /></a></li>
+                          <li><a href="https://twitter.com/Rusuden" target="_blank" rel="noopener noreferrer"><img className="icon" src={ '/img/icons/twitter.svg' } alt="twitter" /></a></li>
+                          <li><a href="mailto:hellohuman@sohosix.com"><img className="icon" src={ '/img/icons/email.svg' } alt="email" /></a></li>
                       </ul>
                   </div>
 
