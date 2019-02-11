@@ -35,6 +35,7 @@ class ArtistsFocus extends Component {
 
     clickHandler = (e, index) => {
         this.setState({ activeModal: index });
+        e.preventDefault();
     }
 
     hideModal = () => {
@@ -201,9 +202,11 @@ class ArtistsFocus extends Component {
                                             <img className="media img-fluid" src={ `/img/artists/${m.image}` } alt={`${m.title}`}  />
                                         </a>
                                         <Modal open={this.state.activeModal === index} onClose={this.hideModal} center>
-                                            <h4>{m.title}</h4>
-                                            <iframe title={`${m.title}`} width="560" height="315" src={`${m.url}`} 
-                                                frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                                            <div className="videoModal">
+                                                <h4>{m.title}</h4>
+                                                <iframe title={`${m.title}`} width="560" height="315" src={`${m.url}`} 
+                                                    frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                                            </div>
                                         </Modal>
                                     </div>
 

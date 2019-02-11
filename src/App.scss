@@ -73,7 +73,6 @@ $sectionSize: 1.2rem;
 			background-color: $hoverGrey;
 		}
 	}
-
 }
 
 /****  MAIN  ****/
@@ -99,20 +98,39 @@ body.white {
 // }
 
 .section-content {
-    padding: 2.5rem 0;
-}
+	padding: 2.5rem 0;
 
-@media screen and (max-width: 767px) {
-
-	.section-content {
+	@media screen and (max-width: 767px) {
 		padding: 1.5rem 0;
 	}
-	
 }
+
+
 
 .policyModal {
 	font-size: .8rem;
 }
+
+.videoModal iframe {
+	width: 700px;
+	height: 395px;
+
+	@media screen and (max-width: 767px) {
+			width: 560px;
+			height: 315px;
+	}
+
+	@media screen and (max-width: 600px) {
+			width: 450px;
+			height: 300px;
+	}
+
+	@media screen and (max-width: 475px) {
+			width: 315px;
+			height: 180px;
+	}	
+}
+
 
 /****  NAVBAR  ****/
 
@@ -127,17 +145,18 @@ body.white {
 	border-bottom: 2px solid $darkGrey;
 	padding: 0rem 2rem;
 
+	@media screen and (max-width: 767px) {
+		height: 98px;
+		@include transition(.4s ease-in-out);
+	}
+
 	img.logo-main {
 		height: 36px;
 		/* @include translateY(-50%); */
-	}
 
-	@media screen and (max-width: 767px) {
-
-		img.logo-main {
+		@media screen and (max-width: 767px) {
 			height: 30px;
 		}
-
 	}
 
 	nav {
@@ -150,14 +169,7 @@ body.white {
 	}
 }
 
-@media screen and (max-width: 767px) {
 
-.navbar, .nav-box {
-	height: 98px;
-	@include transition(.4s ease-in-out);
-}
-
-}
 
 a.nav-link, a.nav-anchor {
 	display: flex;
@@ -216,16 +228,17 @@ ul.navbar-nav a.active, nav a.active {
 		background-color: #fff;
 		width: 20px;
 		height: 20px;
+
+		@media screen and (max-width: 767.98px) {
+			display: none;
+		}
+
 	}
 
 }
 
 
-@media screen and (max-width: 767.98px) {
-	.nav-sublinks div {
-		display: none;
-	}
-}
+
 
 /****  FOOTER  ****/
 
@@ -268,16 +281,9 @@ ul.navbar-nav a.active, nav a.active {
 	
 	
 				}
-		
 			}			
-
 		}
-
-
 	}
-
-
-
 }
 
 
@@ -339,6 +345,12 @@ ul.navbar-nav a.active, nav a.active {
 		display: flex;
 		flex-direction: row;
 		align-items: flex-end;
+
+		@media screen and (max-width: 770px) {
+			flex-direction: column;
+			align-items: center;
+		}
+
 	}
 
 
@@ -352,6 +364,10 @@ ul.navbar-nav a.active, nav a.active {
 
 	.row:nth-child(even) .whiteBox div:first-child {
 		order: 1;
+
+		@media screen and (max-width: 770px) {
+			order: 0;
+		}
 	}
 
 	// .alt-justify div:first-child {
@@ -360,51 +376,34 @@ ul.navbar-nav a.active, nav a.active {
 
 	.img-box {
 		width: 540px;
+
+		@media screen and (max-width: 770px) {
+			width: 100%;
+		}
+
 	}
 
 	.aboutArtist {
 		padding: 20px;
 		width: 470px;
 
+		@media screen and (max-width: 770px) {
+			width: 100%;
+		}
+
 		p.title {
 			font-family: $mako;
 			font-size: 3rem;
 			margin-bottom: .3rem;
-		}
 
-	}
-
-	@media screen and (max-width: 991px) {
-
-		.aboutArtist {
-			p.title {
+			@media screen and (max-width: 991px) {
 				font-size: 2rem;
 				margin-bottom: .3rem;
 			}
+
 		}
 
 	}
-
-	@media screen and (max-width: 770px) {
-		.whiteBox {
-			flex-direction: column;
-			align-items: center;
-		}
-
-		.img-box {
-			width: 100%;
-		}
-		
-		.aboutArtist {
-			width:100%;
-		}
-
-		.row:nth-child(even) .whiteBox div:first-child {
-			order: 0;
-		}
-
-	}
-
 }
 
 
@@ -421,19 +420,18 @@ ul.navbar-nav a.active, nav a.active {
 	.selectedReleases {
 		margin-top: 40px;
 
+		@media screen and (max-width: 991px) {
+			margin-top: 20px;
+
+		}
+
 		p {
 			color: $sectionHeader;
 			font-size: $sectionSize;
 		}
 	}
 
-	@media screen and (max-width: 991px) {
 
-		.selectedReleases {
-			margin-top: 20px;
-		}
-
-	}
 
 	.aboutArtist {
 
@@ -460,15 +458,13 @@ ul.navbar-nav a.active, nav a.active {
 			li {
 				margin: 0px;
 				padding: 0px 0px 15px 0px;
-			}
 
-			@media screen and (max-width: 991px) {
-
-				li {
+				@media screen and (max-width: 991px) {
 					padding: 0px 0px 5px 0px;
 				}
-		
 			}
+
+
 
 		}
 
@@ -543,17 +539,16 @@ ul.navbar-nav a.active, nav a.active {
 	.streamAlbum {
 		margin-top: 40px;
 
+		@media screen and (max-width: 991px) {
+			margin-top: 20px;
+		}
+
 		p {
 			color: $sectionHeader;
 			font-size: $sectionSize;
 		}
 	}
-	@media screen and (max-width: 991px) {
 
-		.streamAlbum {
-			margin-top: 20px;
-		}
-	}
 
 	.releaseArtist {	
 		p {

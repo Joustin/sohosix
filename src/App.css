@@ -31,13 +31,28 @@ body.white {
 
 .section-content {
   padding: 2.5rem 0; }
-
-@media screen and (max-width: 767px) {
-  .section-content {
-    padding: 1.5rem 0; } }
+  @media screen and (max-width: 767px) {
+    .section-content {
+      padding: 1.5rem 0; } }
 
 .policyModal {
   font-size: .8rem; }
+
+.videoModal iframe {
+  width: 700px;
+  height: 395px; }
+  @media screen and (max-width: 767px) {
+    .videoModal iframe {
+      width: 560px;
+      height: 315px; } }
+  @media screen and (max-width: 600px) {
+    .videoModal iframe {
+      width: 450px;
+      height: 300px; } }
+  @media screen and (max-width: 475px) {
+    .videoModal iframe {
+      width: 315px;
+      height: 180px; } }
 
 /****  NAVBAR  ****/
 .nav-padding {
@@ -49,24 +64,23 @@ body.white {
   height: 78px;
   border-bottom: 2px solid #545454;
   padding: 0rem 2rem; }
+  @media screen and (max-width: 767px) {
+    .navbar, .nav-box {
+      height: 98px;
+      -webkit-transition: 0.4s ease-in-out;
+      -moz-transition: 0.4s ease-in-out;
+      transition: 0.4s ease-in-out; } }
   .navbar img.logo-main, .nav-box img.logo-main {
     height: 36px;
     /* @include translateY(-50%); */ }
-  @media screen and (max-width: 767px) {
-    .navbar img.logo-main, .nav-box img.logo-main {
-      height: 30px; } }
+    @media screen and (max-width: 767px) {
+      .navbar img.logo-main, .nav-box img.logo-main {
+        height: 30px; } }
   .navbar nav, .nav-box nav {
     display: flex;
     flex-direction: row; }
   .navbar button.navbar-toggler, .nav-box button.navbar-toggler {
     align-self: center; }
-
-@media screen and (max-width: 767px) {
-  .navbar, .nav-box {
-    height: 98px;
-    -webkit-transition: 0.4s ease-in-out;
-    -moz-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out; } }
 
 a.nav-link, a.nav-anchor {
   display: flex;
@@ -110,10 +124,9 @@ ul.navbar-nav a.active, nav a.active {
     background-color: #fff;
     width: 20px;
     height: 20px; }
-
-@media screen and (max-width: 767.98px) {
-  .nav-sublinks div {
-    display: none; } }
+    @media screen and (max-width: 767.98px) {
+      .nav-sublinks div {
+        display: none; } }
 
 /****  FOOTER  ****/
 #footer-main {
@@ -172,49 +185,49 @@ ul.navbar-nav a.active, nav a.active {
   display: flex;
   flex-direction: row;
   align-items: flex-end; }
+  @media screen and (max-width: 770px) {
+    #artists .whiteBox {
+      flex-direction: column;
+      align-items: center; } }
 
 #artists .row:nth-child(even) .whiteBox {
   justify-content: space-between; }
 
 #artists .row:nth-child(even) .whiteBox div:first-child {
   order: 1; }
+  @media screen and (max-width: 770px) {
+    #artists .row:nth-child(even) .whiteBox div:first-child {
+      order: 0; } }
 
 #artists .img-box {
   width: 540px; }
+  @media screen and (max-width: 770px) {
+    #artists .img-box {
+      width: 100%; } }
 
 #artists .aboutArtist {
   padding: 20px;
   width: 470px; }
+  @media screen and (max-width: 770px) {
+    #artists .aboutArtist {
+      width: 100%; } }
   #artists .aboutArtist p.title {
     font-family: "Mako", sans-serif;
     font-size: 3rem;
     margin-bottom: .3rem; }
-
-@media screen and (max-width: 991px) {
-  #artists .aboutArtist p.title {
-    font-size: 2rem;
-    margin-bottom: .3rem; } }
-
-@media screen and (max-width: 770px) {
-  #artists .whiteBox {
-    flex-direction: column;
-    align-items: center; }
-  #artists .img-box {
-    width: 100%; }
-  #artists .aboutArtist {
-    width: 100%; }
-  #artists .row:nth-child(even) .whiteBox div:first-child {
-    order: 0; } }
+    @media screen and (max-width: 991px) {
+      #artists .aboutArtist p.title {
+        font-size: 2rem;
+        margin-bottom: .3rem; } }
 
 #artistFocusTop .selectedReleases {
   margin-top: 40px; }
+  @media screen and (max-width: 991px) {
+    #artistFocusTop .selectedReleases {
+      margin-top: 20px; } }
   #artistFocusTop .selectedReleases p {
     color: #686868;
     font-size: 1.2rem; }
-
-@media screen and (max-width: 991px) {
-  #artistFocusTop .selectedReleases {
-    margin-top: 20px; } }
 
 #artistFocusTop .aboutArtist p.title {
   font-family: "Mako", sans-serif;
@@ -231,9 +244,9 @@ ul.navbar-nav a.active, nav a.active {
   #artistFocusTop .featuredTracks ul li {
     margin: 0px;
     padding: 0px 0px 15px 0px; }
-  @media screen and (max-width: 991px) {
-    #artistFocusTop .featuredTracks ul li {
-      padding: 0px 0px 5px 0px; } }
+    @media screen and (max-width: 991px) {
+      #artistFocusTop .featuredTracks ul li {
+        padding: 0px 0px 5px 0px; } }
 
 #artistFocusTop .featuredTracks iframe {
   border: 0;
@@ -266,13 +279,12 @@ ul.navbar-nav a.active, nav a.active {
 
 #releaseFocusTop .streamAlbum {
   margin-top: 40px; }
+  @media screen and (max-width: 991px) {
+    #releaseFocusTop .streamAlbum {
+      margin-top: 20px; } }
   #releaseFocusTop .streamAlbum p {
     color: #686868;
     font-size: 1.2rem; }
-
-@media screen and (max-width: 991px) {
-  #releaseFocusTop .streamAlbum {
-    margin-top: 20px; } }
 
 #releaseFocusTop .releaseArtist p {
   font-family: "Mako", sans-serif;
