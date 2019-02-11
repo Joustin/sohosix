@@ -267,15 +267,31 @@ ul.navbar-nav a.active, nav a.active {
 
 #releases .card-body {
   padding: .75rem; }
+  @media screen and (max-width: 1199px) and (min-width: 990px) {
+    #releases .card-body {
+      height: 95px; } }
+  @media screen and (max-width: 991px) and (min-width: 767px) {
+    #releases .card-body {
+      height: 85px; } }
   #releases .card-body p.card-title {
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
     margin-bottom: 0; }
+    @media screen and (max-width: 991px) {
+      #releases .card-body p.card-title {
+        line-height: 1.2rem; } }
   #releases .card-body p.card-text {
     font-size: 1.1rem;
     font-weight: 100;
     text-align: center; }
+    @media screen and (max-width: 1199px) and (min-width: 990px) {
+      #releases .card-body p.card-text {
+        line-height: 1.3rem; } }
+    @media screen and (max-width: 991px) {
+      #releases .card-body p.card-text {
+        line-height: 1.1rem;
+        margin-top: 5px; } }
 
 #releaseFocusTop .streamAlbum {
   margin-top: 40px; }

@@ -514,18 +514,39 @@ ul.navbar-nav a.active, nav a.active {
 	.card-body {
 		padding: .75rem;
 
+		@media screen and (max-width: 1199px) and (min-width: 990px) {
+			height: 95px;
+		}	
+
+		@media screen and (max-width: 991px) and (min-width: 767px) {
+			height: 85px;
+		}	
 
 		p.card-title {
 			font-size: 1.3rem;
 			font-weight: 400;
 			text-align: center;
 			margin-bottom: 0;
+
+			@media screen and (max-width: 991px) {
+				line-height: 1.2rem;
+			}				
 		}
 	
 		p.card-text  {
 			font-size: 1.1rem;
 			font-weight: 100;
 			text-align: center;
+
+			@media screen and (max-width: 1199px) and (min-width: 990px) {
+				line-height: 1.3rem;
+			}	
+
+			@media screen and (max-width: 991px) {
+				line-height: 1.1rem;
+				margin-top: 5px;
+			}			
+
 		}	
 
 	}	
